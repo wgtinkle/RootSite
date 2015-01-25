@@ -1,0 +1,67 @@
+﻿
+/*左边的编辑栏*/
+.FContentManage{ width:100%; height:auto; position:relative; float:left; border-right:1px solid Gray;}
+/*导航*/
+.ContentIndex{ width:100%; height:50px; position:relative;}
+.ContentIndex ul{ display:block; list-style-type:none ; font-size:0px; width:100%; height:50px; margin:0; padding:0; position:relative; background-color:Orange}
+.ContentIndex li{ margin:0; width:158px; height:100%; position:relative; float:left; line-height:50px; font-size:18px; text-align:center; cursor:pointer}
+/*页面*/
+.ContentPage { width:100%; height:auto; margin-top:60px; position:relative;}
+/*信息*/
+.PageZone{ display:block; width:100%; height:250px; position:relative; }
+
+.PersonInfo{ width:930px; margin-left:10px; height:200px; position:absolute; border:1px solid #ededef}
+.PersonInfoTitle { margin-left:5px; margin-top:5px; height:19px; border-bottom:1px solid Gray; width:638px; line-height:19px; font-size:15px; position:absolute}
+.PersonHead{ display:block; margin-left:5px; margin-top:35px; width:120px; height:120px; position:absolute; }
+.PersonHead img{ width:100%; height:100%; position:relative; border:1px solid Gray}
+.HeadMotifyBut{ display:block; margin-left:5px; margin-top:170px; width:120px; height:25px; position:absolute; background-color:Orange; font-size:15px; text-align:center; line-height:25px; cursor:pointer}
+.PersonNName{ width:250px; height:30px; margin-left:160px; margin-top:35px; position:absolute; font-size:25px; font-family:"黑体"; border-bottom:1px solid Gray; text-align:center}
+.PersonId{ width:250px; height:20px; margin-left:160px; margin-top:80px; position:absolute; font-size:15px;}
+.PersonAge{ width:250px; height:20px; margin-left:160px; margin-top:105px; position:absolute; font-size:15px;}
+.PersonTag{ width:250px; height:20px; margin-left:160px; margin-top:130px; position:absolute; font-size:15px;}
+/*头像上传*/
+.HeadUploadPage{display:none; width:400px; height:220px; z-index:99; background-color:Gray; position:fixed;overflow: hidden;}
+.UploadImgTitle{ width:100%; height:25px; text-align:center; font-size:15px; line-height:25px; position:absolute}
+.UploadImg{ width:150px; height:150px; margin-top:40px; margin-left:15px; position:absolute}
+.UploadImg img{ width:148px; height:148px; position:relative; border:1px solid Gray}
+.UpLoadBrowser{display:block;  width:200px; height:25px; margin-top:130px; margin-left:180px; position:absolute;}
+.UpLoadForm{ display:block;  width:100%; height:100%; position:absolute}
+.ImgAddress{display:block; width:135px; height:18px; position:absolute; border:1px; margin-top:1px;}
+.ImgBrowser{ display:block;width:65px; height:20px; margin-left:135px;position:absolute;}
+.UpLoadBut{  width:200px; height:20px; margin-top:170px; margin-left:180px; position:absolute;}
+.UpLoadButSubmit{ width:80px; height:20px; position:absolute;  text-align:center; font-size:15px; line-height:22px; background-color:Orange; cursor:pointer;}
+.UpLoadButCancle{ width:80px; height:20px; position:absolute; margin-left:120px;  text-align:center; font-size:15px; line-height:22px; background-color:Orange; cursor:pointer;}
+
+
+
+/*文章*/
+.PageArticle{ display:none; width:100%; height:700px; position:relative;}
+.SelfArticleList{ width:600px; height:650px; position:absolute;}
+.SelArticleT{ margin-left:10px; width:590px; height:30px; font-size:15px; position:absolute; border-bottom:1px dashed Green}
+.SelfArticleList ul{display:block; list-style-type:none ; font-size:0px; width:100%;  height:600px; margin:0; padding:0;margin-top:50px; position:absolute; overflow:auto }
+.SelfArticleList li{ margin-left:15px; margin-top:10px; width:270px; height:200px; position:relative; float:left ; border:1px solid #ededef; box-shadow: 2px 3px 5px #a2a2a3;}
+.SelfArticleListTitle{ margin-left:15px; width:250px; height:30px; line-height:50px; text-align:center; font-size:23px; position:absolute; font-family:"黑体"}
+.SelfArticleListConten{margin-left:15px; margin-top:35px; width:250px; height:120px;  position:absolute}
+.SelfArticleListConten p{ width:100%; height:120px; padding:0; line-height:20px; position:absolute; font-size:15px; color:#5f5f5f}
+.SelfArticleListTime{margin-left:20px; margin-top:165px; width:120px; height:30px; line-height:30px;  font-size:13px; position:absolute; color:Gray}
+.SelfArticleListInfo{margin-left:155px; margin-top:165px; width:100px; height:30px; line-height:30px;  font-size:13px; position:absolute; color:Gray}
+.ColectArticleList{width:310px; margin-left:625px; height:650px; position:absolute;}
+.ColectArticleT{ width:310px; height:30px; font-size:15px; position:absolute; border-bottom:1px dashed Green}
+.ColectArticleList ul{display:block; list-style-type:none ; font-size:0px; width:100%;  height:600px; margin:0; padding:0;margin-top:50px; position:absolute; overflow:auto }
+.ColectArticleList li{ margin-top:5px; width:275px; height:60px; position:relative; float:left ;border:1px solid #ededef;box-shadow: 1px 1px 2px #d2d2d3 }
+.ColectArticleHeadImg{ margin-left:2px; width:50px; height:50px; margin-top:5px; position:absolute;}
+.ColectArticleHeadImg img{ width:100%; height:100%; position:relative;border-radius:25px;}
+.ColectArticleCTitle{width:200px; height:30px; margin-left:60px; margin-top:8px; position:absolute; font-size:18px; }
+.ColectArticleTime{width:200px; height:20px; margin-left:60px; margin-top:38px; position:absolute; font-size:15px; color:Gray}
+
+
+.PageOpinion{ display:none; width:100%; height:100%; position:absolute;}
+
+
+
+.PageData{ display:none; width:100%; height:100%; position:absolute;}
+.PageRes{ display:none; width:100%; height:100%; position:absolute;}
+.PageRelation{ display:none; width:100%; height:100%; position:absolute;}
+
+
+

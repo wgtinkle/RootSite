@@ -1,0 +1,59 @@
+﻿
+body{margin:0 auto; background-color:#ededef }
+/*主页面的CSS*/
+.FramePage{margin:0 auto;width:950px;height:auto;z-index:1;position:relative; }
+/*主页面的Menu*/
+.FrameMenuBk{ width:100%; height:100px; top:0px; left:0px; position:fixed; background-color:#24292c ;box-shadow: 2px 3px 5px #a2a2a3}
+.FrameMenu{ top:0; width:950px;height:100px;z-index:99;position:fixed; background-color:#24292c}
+.FrameMenuLog{ display:block; width:200px; height:100%; position:absolute; z-index:100;background:url("../FrameImg/sitelogo/sitelogo.png" ) no-repeat scroll; }
+.FrameMenuC{ width:600px; height:100%; margin-left:200px; position:absolute;z-index:100}
+.MenuRobot{ margin-left:10px; margin-top:20px; width: 60px; height:60px; position:absolute;}
+.MenuRobot img{ width:100%; height:100%; position:relative; background-color:White; border-radius:30px; }
+.MenuUser{ margin-left:520px; margin-top:20px; width: 60px; height:60px; position:absolute;}
+.MenuUser img{ width:100%; height:100%; position:relative; background-color:White;  border-radius:30px; }
+.RobotTalk{ display:block; margin-left:100px; margin-top:15px; width:400px; height:25px; position:absolute; color:Blue; line-height:25px; text-align:center; font-size:20px; font-family:"黑体"}
+.MenuUserTalk{display:block; outline:none; margin-left:100px; margin-top:50px; width:324px; height:25px; padding:0; border:0px; padding-right:75px; background-color:#24292c; position:absolute;border-radius:10px;}
+.MenuUserBut{ margin-left:425px; margin-top:52px; width:75px; height:23px; position:absolute; background-color:#24292c;z-index:101;border-radius:10px; line-height:23px; text-align:center; font-size:12px; font-family:"黑体"; color:#24292c}
+
+.FrameLR{ width:150px; height:100%; margin-left:800px; position:absolute;z-index:100}
+
+.LoadRegBk{ display:none; margin:0 auto; position:absolute; margin-top:0px; padding:0px; background:rgba(255,255,255,0.8);filter:alpha(opacity:80); z-index:99}
+.FrameUnLoad{ display:block; width:150px; height:100%; position:relative;z-index:102}
+
+.UserLoad{ width:150px; height:50px; position:absolute; color:White; text-align:center; line-height:50px; cursor:pointer}
+.UserLoadPage{ display:none; width:400px; height:220px; z-index:99; background-color:Blue; position:fixed;overflow: hidden}
+.UserLoadPageTitle{width:400px; height:25px; background-color:Gray; position:absolute; margin-left:0px; padding:0; text-align:center; line-height:25px;}
+.UserLoadPage ul{ margin-top:25px; list-style-type:none; font-size:0px; width:100%; height:220px; padding:0; margin-top:50px; position:absolute;}
+.UserLoadPage li{  display:block; margin-top:20px; margin-left:25px; padding:0px;width:350px; height:30px;position:relative; vertical-align:top}
+.UserLoadPage label{ display:block; width:50px; height:30px; line-height:30px; position:absolute; font-size:15px; text-align:left}
+.UserLoadPage input{ display:block; margin-left:100px; width:250px; height:25px; line-height:30px; position:absolute; padding:0; border:0}
+.UserLoadBut{  width:160px; height:30px; position:absolute; background-color:Orange; font-size:15px; line-height:30px; cursor: pointer}
+.UserLoadCancle{ margin-left:190px; width:160px; height:30px; position:absolute; background-color:Orange;font-size:15px; line-height:30px; cursor: pointer}
+
+.UserRegister{ width:150px; height:50px; margin-top:50px; position:absolute; color:White; text-align:center; line-height:50px; cursor:pointer}
+.RegisterPage{ display:none; width:400px; height:220px; z-index:99; background-color:Red; position:fixed;overflow: hidden}
+.RegisterPageTitle{ width:400px; height:25px; background-color:Gray; position:absolute; margin-left:0px; padding:0; text-align:center; line-height:25px;}
+.RegisterPage ul{ margin-top:25px; list-style-type:none; font-size:0px; width:100%; height:220px; padding:0; margin-top:50px; position:absolute;}
+.RegisterPage li{  display:block; margin-top:20px; margin-left:25px; padding:0px;width:350px; height:30px;position:relative; vertical-align:top}
+.RegisterPage label{ display:block; width:50px; height:30px; line-height:30px; position:absolute; font-size:15px; text-align:left}
+.RegisterPage input{ display:block; margin-left:100px; width:250px; height:25px; line-height:30px; position:absolute; padding:0; border:0}
+.UserRegBut{  width:160px; height:30px; position:absolute; background-color:Orange; font-size:15px; line-height:30px; cursor: pointer}
+.UserRegCancle{ margin-left:190px; width:160px; height:30px; position:absolute; background-color:Orange;font-size:15px; line-height:30px; cursor: pointer}
+
+.FrameLoad{ display:none; width:150px; height:100%; position:relative;z-index:101}
+.UserZone{width:150px; height:50px; position:absolute; color:White; text-align:center; line-height:50px; cursor:pointer}
+.UserQuit{width:150px; height:50px; margin-top:50px; position:absolute; color:White; text-align:center; line-height:50px; cursor:pointer}
+
+/*主页面的内容*/
+.FrameContent{ margin:0 auto; margin-top:120px; width:100%; height:auto; position:relative; float:left; z-index:1; background-color:White}
+
+
+/*主页面的页脚*/
+.FrameFoot{ margin:0 auto; margin-top:20px; width:100%; height:150px; position:relative;float:left;z-index:1;}
+.FrameFootTag{ margin-top:5px; width:100%; height:50px; position:absolute; background-color:Black}
+.FrameFootTag ul{ list-style-type:none; font-size:0px; margin:0; padding:0; margin-left:225px; width:500px; position:absolute}
+.FrameFootTag li{  width:100px; height:100%; float:left; position:relative; text-align:center; line-height:50px; font-size:15px; color:White}
+.FrameFootCopyRight{ margin-top:55px; margin-left:225px; width:500px; height:25px;text-align:center; line-height:25px; font-size:12px; color:Gray;position:absolute}
+.FrameFootPhoneMail{margin-top:85px; margin-left:225px; width:500px; height:25px;text-align:center; line-height:25px; font-size:12px; color:Gray;position:absolute}
+.FrameFootIcp{margin-top:115px; margin-left:225px; width:500px; height:25px;text-align:center; line-height:25px; font-size:12px; color:Gray;position:absolute}
+

@@ -1,0 +1,262 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head >
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+    <title>AllWithMe!</title>
+    <link href="./FrameCss/FrameStyle.css" rel="stylesheet" type="text/css"></link>
+    <link href="./FrameCss/UserManageStyle.css" rel="stylesheet" type="text/css"></link>
+
+    <script type="text/javascript" src="./FrameJs/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="./FramePlug/JqCookie/jquery.cookies.2.2.0.min.js"></script>
+    <script type="text/javascript" src="./FrameJs/jquery-migrate-1.1.0.min.js"></script>    
+    <script type="text/javascript" src="./FrameJs/jsFrame.js"></script>
+    <script type="text/javascript" src="./FramePlug/CommentEdit/xheditor-1.2.1.min.js"></script>  
+    <script type="text/javascript" src="./FramePlug/CommentEdit/xheditor_lang/zh-cn.js"></script>
+    <script type="text/javascript" src="./FramePlug/jqForm/jquery.form.js"></script>
+    <script type="text/javascript" src="./FrameJs/jsUserManage.js"></script>
+
+</head>
+<body>
+    <div class = "FramePage">
+            <div class = "LoadRegBk"></div>
+            <div class = "FrameMenu">
+                <a class = "FrameMenuLog" href="Index.htm"></a>
+                <div class = "FrameMenuC">
+                    <div class = "MenuRobot"><img src="FrameImg/UserHead/RobotHead.jpg"/></div>
+                    <label class ="RobotTalk">您好，欢迎您的访问，祝您愉快！</label>
+                    <input class ="MenuUserTalk"></input>
+                    <div class = "MenuUserBut">发送</div>
+                    <div class = "MenuUser"><img id="MenuUserImg" src="FrameImg/UserHead/HeadUser.jpg"/></div>
+                </div>
+                <div class = "FrameLR">
+                    <div class = "FrameUnLoad">
+                        <div class = "UserLoad">登  录
+                            <div class = "UserLoadPage">
+                                <div class = "UserLoadPageTitle">用户登录</div>
+                                <ul>
+                                <li><label>用户名</label><input type ="text" class="UserNameL" id = "UserNameL" /></li>
+                                <li><label>密  码</label><input type="password";class="UserPwdL"  id = "UserPwdL"/></li>
+                                <li><div class = "UserLoadBut">登    录</div><div class = "UserLoadCancle">取  消</div></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class = "UserRegister">注    册
+                            <div class = "RegisterPage">
+                                <div class = "RegisterPageTitle">用户登录注册</div>
+                                <ul>
+                                <li><label>用户名</label><input type ="text" class="UserNameL" id = "UserNameR"/></li>
+                                <li><label>密  码</label><input type="password";class="UserPwdL" id = "UserPwdR"/></li>
+                                <li><div class = "UserRegBut">注  册</div><div class = "UserRegCancle">取  消</div></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "FrameLoad">
+                        <div class = "UserZone">我的地盘</div>
+                        <div class = "UserQuit">退    出</div>
+                    </div>
+                </div>
+            </div>
+            <div class = "FrameContent">
+                <div class = "FContentManage">
+                    <div class = "ContentIndex">
+                        <ul >
+                            <li>我的Zone</li>
+                            <li>文章编辑</li>
+                            <li>观点讨论</li>
+                            <li>数据分析</li>
+                            <li>我的图片</li>
+                            <li>好友互联</li>
+                        </ul>
+                    </div>
+                    <div class = "ContentPage">
+                        <div class = "PageZone">
+                            <div class = "PersonInfo">
+                                <div class = "PersonInfoTitle">个人信息</div>
+                                <div class = "PersonHead"><img  class = "PersonHeadImg" id = "PersonHeadImg" src = "FrameImg/UserHead/HeadUser.jpg"/></div>                                
+                                <div class = "PersonNName">花石头</div>
+                                <div class = "PersonId">I      D：20121</div>                                
+                                <div class = "PersonAge">站龄：28</div>
+                                <div class = "PersonTag">标签：画家 摄影爱好者 网站编辑</div>
+                                <div class = "PersonHeadUpload">
+                                    <div class = "HeadMotifyBut">修改头像</div>
+                                    <div class = "HeadUploadPage">
+                                        <div class = "UploadImgTitle">头像上传</div>
+                                        <div class = "UploadImg"><img id ="UploadPic" /></div>
+                                        <div class = "UpLoadBrowser">
+                                            <form class = "UpLoadForm" name = "UpLoadForm" >
+                                                <input type = "text"  class = "ImgAddress" readonly = "readonly" name = "ImgSrc"/>
+                                                <input type = "file" class = "ImgBrowser" accept="image/*" name = "ImgSel" onchange="InputChange()"/>
+                                                <script>
+                                                    function InputChange() {
+                                                        $('.ImgAddress').val($('.ImgBrowser').val());
+                                                        var imgsrc = "'" + $('.ImgBrowser').val() + "'";
+                                                        $('#UploadPic').attr("src", imgsrc);
+                                                    };
+                                                </script>
+                                            </form>
+                                        </div>                                        
+                                        <div class = "UpLoadBut">
+                                            <div class = "UpLoadButSubmit">上    传</div>
+                                            <div class = "UpLoadButCancle">取    消</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                           
+                        </div>
+                        <div class = "PageArticle">                           
+                            <div class = "SelfArticleList">
+                                <div class = "SelArticleT">我的文章</div>
+                                <ul>
+                                    <li>
+                                        <div class = "SelfArticleListTitle">文章的标题</div>
+                                        <div class = "SelfArticleListConten"><p>近日,新版百度搜索引擎正式上线了,貌似除了少敲一个回车键和导航改到搜索框下方,其他没什么改变,其实未必是这样的,在新版的搜索引擎出来之前,搜索引擎在算法中就...</p></div>
+                                        <div class = "SelfArticleListTime">20151203</div>
+                                        <div class = "SelfArticleListInfo">阅读123 收藏234</div>
+                                    </li>
+                                    <li>
+                                        <div class = "SelfArticleListTitle">文章的标题</div>
+                                        <div class = "SelfArticleListConten"><p>近日,新版百度搜索引擎正式上线了,貌似除了少敲一个回车键和导航改到搜索框下方,其他没什么改变,其实未必是这样的,在新版的搜索引擎出来之前,搜索引擎在算法中就...</p></div>
+                                        <div class = "SelfArticleListTime">20151203</div>
+                                        <div class = "SelfArticleListInfo">阅读123 收藏234</div>
+                                    </li>
+                                    <li>
+                                        <div class = "SelfArticleListTitle">文章的标题</div>
+                                        <div class = "SelfArticleListConten"><p>近日,新版百度搜索引擎正式上线了,貌似除了少敲一个回车键和导航改到搜索框下方,其他没什么改变,其实未必是这样的,在新版的搜索引擎出来之前,搜索引擎在算法中就...</p></div>
+                                        <div class = "SelfArticleListTime">20151203</div>
+                                        <div class = "SelfArticleListInfo">阅读123 收藏234</div>
+                                    </li>
+                                    <li>
+                                        <div class = "SelfArticleListTitle">文章的标题</div>
+                                        <div class = "SelfArticleListConten"><p>近日,新版百度搜索引擎正式上线了,貌似除了少敲一个回车键和导航改到搜索框下方,其他没什么改变,其实未必是这样的,在新版的搜索引擎出来之前,搜索引擎在算法中就...</p></div>
+                                        <div class = "SelfArticleListTime">20151203</div>
+                                        <div class = "SelfArticleListInfo">阅读123 收藏234</div>
+                                    </li>
+                                    <li>
+                                        <div class = "SelfArticleListTitle">文章的标题</div>
+                                        <div class = "SelfArticleListConten"><p>近日,新版百度搜索引擎正式上线了,貌似除了少敲一个回车键和导航改到搜索框下方,其他没什么改变,其实未必是这样的,在新版的搜索引擎出来之前,搜索引擎在算法中就...</p></div>
+                                        <div class = "SelfArticleListTime">20151203</div>
+                                        <div class = "SelfArticleListInfo">阅读123 收藏234</div>
+                                    </li>
+                                    <li>
+                                        <div class = "SelfArticleListTitle">文章的标题</div>
+                                        <div class = "SelfArticleListConten"><p>近日,新版百度搜索引擎正式上线了,貌似除了少敲一个回车键和导航改到搜索框下方,其他没什么改变,其实未必是这样的,在新版的搜索引擎出来之前,搜索引擎在算法中就...</p></div>
+                                        <div class = "SelfArticleListTime">20151203</div>
+                                        <div class = "SelfArticleListInfo">阅读123 收藏234</div>
+                                    </li>
+                                    <li>
+                                        <div class = "SelfArticleListTitle">文章的标题</div>
+                                        <div class = "SelfArticleListConten"><p>近日,新版百度搜索引擎正式上线了,貌似除了少敲一个回车键和导航改到搜索框下方,其他没什么改变,其实未必是这样的,在新版的搜索引擎出来之前,搜索引擎在算法中就...</p></div>
+                                        <div class = "SelfArticleListTime">20151203</div>
+                                        <div class = "SelfArticleListInfo">阅读123 收藏234</div>
+                                    </li>
+                                    <li>
+                                        <div class = "SelfArticleListTitle">文章的标题</div>
+                                        <div class = "SelfArticleListConten"><p>近日,新版百度搜索引擎正式上线了,貌似除了少敲一个回车键和导航改到搜索框下方,其他没什么改变,其实未必是这样的,在新版的搜索引擎出来之前,搜索引擎在算法中就...</p></div>
+                                        <div class = "SelfArticleListTime">20151203</div>
+                                        <div class = "SelfArticleListInfo">阅读123 收藏234</div>
+                                    </li>
+                                    <li>
+                                        <div class = "SelfArticleListTitle">文章的标题</div>
+                                        <div class = "SelfArticleListConten"><p>近日,新版百度搜索引擎正式上线了,貌似除了少敲一个回车键和导航改到搜索框下方,其他没什么改变,其实未必是这样的,在新版的搜索引擎出来之前,搜索引擎在算法中就...</p></div>
+                                        <div class = "SelfArticleListTime">20151203</div>
+                                        <div class = "SelfArticleListInfo">阅读123 收藏234</div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class ="ColectArticleList">
+                                <div class = "ColectArticleT">我的收藏</div>
+                                <ul>
+                                    <li>
+                                        <div class = "ColectArticleHeadImg"><img src = "FrameImg/UserHead/UserHead12.jpg" /></div>
+                                        <div class = "ColectArticleCTitle">收藏的文章标题设计</div>
+                                        <div class = "ColectArticleTime">20141102</div>
+                                    </li>
+                                    <li>
+                                        <div class = "ColectArticleHeadImg"><img src = "FrameImg/UserHead/UserHead5.jpg" /></div>
+                                        <div class = "ColectArticleCTitle">收藏的文章标题设计</div>
+                                        <div class = "ColectArticleTime">20141102</div>
+                                    </li>
+                                    <li>
+                                        <div class = "ColectArticleHeadImg"><img src = "FrameImg/UserHead/UserHead6.jpg" /></div>
+                                        <div class = "ColectArticleCTitle">收藏的文章标题设计</div>
+                                        <div class = "ColectArticleTime">20141102</div>
+                                    </li>
+                                    <li>
+                                        <div class = "ColectArticleHeadImg"><img src = "FrameImg/UserHead/UserHead15.jpg" /></div>
+                                        <div class = "ColectArticleCTitle">收藏的文章标题设计</div>
+                                        <div class = "ColectArticleTime">20141102</div>
+                                    </li>
+                                    <li>
+                                        <div class = "ColectArticleHeadImg"><img src = "FrameImg/UserHead/UserHead14.jpg" /></div>
+                                        <div class = "ColectArticleCTitle">收藏的文章标题设计</div>
+                                        <div class = "ColectArticleTime">20141102</div>
+                                    </li>
+                                    <li>
+                                        <div class = "ColectArticleHeadImg"><img src = "FrameImg/UserHead/UserHead9.jpg" /></div>
+                                        <div class = "ColectArticleCTitle">收藏的文章标题设计</div>
+                                        <div class = "ColectArticleTime">20141102</div>
+                                    </li>
+                                    <li>
+                                        <div class = "ColectArticleHeadImg"><img src = "FrameImg/UserHead/UserHead3.jpg" /></div>
+                                        <div class = "ColectArticleCTitle">收藏的文章标题设计</div>
+                                        <div class = "ColectArticleTime">20141102</div>
+                                    </li>
+                                    <li>
+                                        <div class = "ColectArticleHeadImg"><img src = "FrameImg/UserHead/UserHead6.jpg" /></div>
+                                        <div class = "ColectArticleCTitle">收藏的文章标题设计</div>
+                                        <div class = "ColectArticleTime">20141102</div>
+                                    </li>
+                                    <li>
+                                        <div class = "ColectArticleHeadImg"><img src = "FrameImg/UserHead/UserHead5.jpg" /></div>
+                                        <div class = "ColectArticleCTitle">收藏的文章标题设计</div>
+                                        <div class = "ColectArticleTime">20141102</div>
+                                    </li>
+                                    <li>
+                                        <div class = "ColectArticleHeadImg"><img src = "FrameImg/UserHead/UserHead7.jpg" /></div>
+                                        <div class = "ColectArticleCTitle">收藏的文章标题设计</div>
+                                        <div class = "ColectArticleTime">20141102</div>
+                                    </li>
+                                    <li>
+                                        <div class = "ColectArticleHeadImg"><img src = "FrameImg/UserHead/UserHead2.jpg" /></div>
+                                        <div class = "ColectArticleCTitle">收藏的文章标题设计</div>
+                                        <div class = "ColectArticleTime">20141102</div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class = "PageOpinion">
+                        </div>
+                        <div class = "PageData"></div>
+                        <div class = "PageRes"></div>
+                        <div class = "PageRelation"></div>
+                        <div class = "PageFlow"></div>
+                    </div>
+                </div>                
+            </div>
+            <div class = "FrameFoot">
+                <div class = "FrameFootTag">
+                    <ul>
+                        <li>网站简介</li>
+                        <li>About Us</li>
+                        <li>联系我们</li>
+                        <li>友情链接</li>
+                        <li>网站导航</li>
+                    </ul>
+                </div>
+                <div class = "FrameFootCopyRight">Copyright ©2014 , All Rights Reserved</div>
+                <div class = "FrameFootPhoneMail">联系方式：18664350014  邮箱：wgtinkle@163.com</div>
+                <div class = "FrameFootIcp"><a href = "http://www.miitbeian.gov.cn/">ICP证粤14087076号</a></div>
+            </div>
+    </div>
+</body>
+</html>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        FrameInit();
+        UserManageInit();
+    });
+</script>
+

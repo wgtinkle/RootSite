@@ -1,0 +1,82 @@
+﻿
+.OpinionPublic { margin-left:800px; width:100px;  height:40px;  margin-top:30px; position:relative; line-height:40px;font-family:"黑体"; font-size:20px; color:#666666; cursor:pointer;background:url("../FrameImg/sitelogo/imgShare.png" ) no-repeat scroll }
+
+.OpinionTagArea{ margin-left:25px; margin-top:25px; width:900px; height:50px; position:relative}
+.OpinionLbut{ width:50px; height:100%; position:absolute;background:url("../FrameImg/sitelogo/ResIndexLbut.png" ) no-repeat scroll; cursor:pointer}
+.OpinionTagBrowser{ width:800px; height:100%; margin-left:50px; overflow:hidden; position:absolute}
+.OpinionTagBrowser ul{ list-style-type:none; font-size:0px; margin:0; padding:0; width:800px; height:100%; position:absolute;}
+.OpinionTagBrowser li{ width:98px; height:100%; float:left; position:relative; text-align:center; line-height:50px; font-family:"黑体"; color:#666666; font-size:15px; border-left:1px solid #eeeeee; border-right:1px solid #eeeeee; cursor:pointer}
+.OpinionRbut{width:50px; height:100%;margin-left:850px; position:absolute;background:url("../FrameImg/sitelogo/ResIndexRbut.png" ) no-repeat scroll; cursor:pointer}
+
+/*排行区*/
+.OpinionRank{ margin-left:25px; margin-top:20px; width:894px; height:220px; position:relative; float:left; border:1px solid #ededef}
+.OpinionRank ul{list-style-type:none; font-size:0px; margin:0; padding:0; width:894px; height:100%; position:absolute;}
+.OpinionRank li{ margin-left:24px; margin-top:20px; width:148px; height:180px; position:relative; float:left;border:1px solid #ededef;box-shadow: 2px 3px 5px #a2a2a3 }
+.OpinionRankHead{ margin-left:24px; margin-top:5px; width:100px; height:100px; position:absolute;}
+.OpinionRankHead img{ width:100px; height:100px; position:relative;border-radius:50px;}
+.OpinionRankTitle{ margin-left:10px; margin-top:120px; width:130px; height:30px; position:absolute}
+.OpinionRankTitle p{ margin:0px; padding:0px; width:100%; height:100%; position:absolute; font-size:13px; line-height:15px;}
+.OpinionRankTime{margin-left:10px; margin-top:155px;width:130px; height:20px; position:absolute; line-height:20px; font-size:12px; color:#aaaaaa}
+
+.OpinionContent{ margin-left:0px; margin-top:10px; width:950px; height:auto; position:relative; float:left}
+.OpinionContent ul{list-style-type:none; font-size:0px; margin:0; padding:0; width:100%; height:auto; position:relative;}
+.OpinionContent li{ margin-left:25px; margin-top:25px; width:280px; height:488px; position:relative;border:1px solid #ededef; float:left;}
+.OpinionCT{ margin-left:10px; margin-top:10px; width:260px; height:30px; position:absolute;text-align:center; line-height:30px; font-family:"黑体"; color:#666666; font-size:20px;}
+.OpinionCimg{ margin-left:10px; margin-top:50px; width:260px; height:120px; position:absolute;}
+.OpinionCimg img{ width:100%; height:100%; position:relative;}
+.OpinionCC{ margin-left:10px; margin-top:180px; width:260px; height:80px; position:absolute;}
+.OpinionCC p{ padding:0; width:100%; height:100%; font-size:12px; color:#aaaaaa; line-height:20px;}
+.OpinionCList{margin-left:10px; margin-top:270px; width:260px; height:160px; position:absolute;}
+.OpinionCList ul{list-style-type:none; font-size:0px; margin:0; padding:0; width:100%; height:100%; position:relative;}
+.OpinionCList li{ margin:0; padding:0; width:100%; height:54px; position:relative; float:left; border:none;}
+.OpinionCHead{ margin-left:5px; margin-top:5px; width:45px; height:45px; position:absolute;}
+.OpinionCHead img{ width:100%; height:100%; position:relative;border-radius:20px;}
+.OpinionCCT{margin-left:60px; margin-top:5px; width:190px; height:45px; position:absolute; font-size:14px;color:#666666; line-height:22px}
+.OpinionCMore{margin-left:220px; margin-top:445px; width:60px; height:30px; font-size:12px; color:#aaaaaa; line-height:30px; position:absolute; cursor:pointer; position:absolute}
+.OpinionC{ width:0; height:0; position:absolute}
+/*内容加载区*/
+.OpinionLoad{ display:block; margin-left:25px; margin-top:20px; width:900px; height:30px; position:relative;float:left}
+
+.OpinionAreaOpinionBK{ display:none; left:0px; top:0px; width:100px; height:100px; position:fixed; z-index:110; background-color:Black; filter:alpha(opacity=90); -moz-opacity:0.9; -khtml-opacity: 0.9; opacity: 0.9;}
+/*建议浏览层*/
+.OpinionAreaOpinionC{display:none; width:800px; height:600px; position:fixed; z-index:111; }
+.OpinionAreaOpinionT{ width:100%; height:50px; margin-top:5px; line-height:50px;font-family:"黑体"; color:White; font-size:20px; text-align:center; position:relative }
+
+.OpinionAreaOpinionCC{ width:100%; height:50px; margin-top:10px; position:relative}
+.OpinionAreaOpinionCC p{width:780px;margin-left:20px; height:50px; line-height:20px; color:#afafaf; font-size:15px; position:absolute}
+
+.OpinionAreaOpinionList{ width:100%; height:600px;margin-top:10px; position:relative}
+.OpinionAreaOpinionList ul{ display:block; list-style-type:none; font-size:0px; margin:0; padding:0; margin-top:20px; width:100%; height:100%; position:absolute;overflow:auto;}
+.OpinionAreaOpinionList li{width:760px; margin-left:20px; height:50px; margin-top:5px; position:relative;}
+.OpinionAreaOpinionHead{ margin-top:5px; width:40px; height:40px; position:absolute;}
+.OpinionAreaOpinionHead img{ width:100%; height:100%; position:relative;border-radius:20px;}
+.OpinionAreaOpinionInnerC{ width:550px; height:40px; margin-left:70px; margin-top:5px; position:absolute; line-height:40px; color:Blue; font-size:14px; }
+.OpinionAreaOpinionZan{ width:100px; height:40px; margin-left:550px; margin-top:5px; position:absolute;background:url("../FrameImg/sitelogo/ZanBut.png" ) no-repeat scroll}
+.OPzan{ width:50px; height:100%; margin-left:50px; color:#aaaaaa; line-height:40px; font-size:12px; position:absolute;}
+.OpinionAreaOpinionFandui{width:100px; height:40px; margin-left:650px; margin-top:5px;position:absolute;background:url("../FrameImg/sitelogo/FanduiBut.png" ) no-repeat scroll}
+.OpFandui{width:50px; height:100%; margin-left:50px; color:#aaaaaa; line-height:40px; font-size:12px; position:absolute}
+
+.OpinionAreaSend{ width:100%; height:30px; margin-top:10px; position:relative}
+.OpinionAreaLabel{ width:80px; height:100%; margin-left:20px; line-height:30px; color:#afafaf; font-size:15px; position:absolute}
+.OpinionAreaInput{ display:block; width:600px; height:24px; position:absolute; margin-left:110px; border:none;}
+.OpinionAreaSubmit{ width:80px; height:26px; margin-left:720px; position:absolute;  background-color:Gray; color:White; line-height:30px; text-align:center; cursor:pointer;}
+.OpinionAreaOpinionClose{ width:40px; height:40px; top:0px; left:760px; position:absolute; z-index:112;cursor:pointer;  background:url("../FrameImg/sitelogo/CloseBut.png" ) no-repeat scroll}
+/*发表看法浏览层*/
+.OpinionAreaQuickPublish{display:none; width:800px; height:600px; position:fixed; z-index:113;}
+.OpinionPublishForm{ width:100%; height:100%; position:absolute}
+.OpinionAreaQPTitle{width:100%; height:50px; margin-top:5px; line-height:50px;font-family:"黑体"; color:White; font-size:20px; text-align:center; position:relative;}
+.OpinionAreaQPTitleEdit{width:100%; height:50px; margin-top:10px; position:relative;}
+.OpinionAreaOpinionTEL{ width:100px; height:100%; position:absolute; color:White; font-size:16px; line-height:50px; }
+.OpinionAreaOpinionTEInput{ width:550px; height:24px; margin-top:13px; border:none; margin-left:120px; position:absolute;}
+.OpinionAreaQPButSubmit{ width:65px; height:26px; margin-top:13px; margin-left:735px; font-size:13px; text-align:center; line-height:26px; position:absolute; background-color:White; cursor:pointer}
+.OpinionAreaSubmitId{ width:0; height:0; position:absolute}
+.OpinionAreaQPContentEdit{width:100%; height:300px; margin-top:10px; position:relative;}
+.OpinionAreaOpinionEEL{width:100px; height:30px; position:absolute; color:White; font-size:16px; line-height:30px; }
+.OpinionAreaOpinionEEARea{ width:795px; height:270px; margin-top:30px; position:absolute}
+.OpinionAreaQPImg{width:100%; height:50px; margin-top:10px; position:relative;}
+.OpinionAreaOpinionEEI{ width:100px; height:100%; position:absolute; color:White; font-size:16px; line-height:50px; }
+.OpinionAreaOpinionEEIimgPath{ width:550px; height:24px; margin-top:13px; border:none; margin-left:120px; position:absolute;}
+.OpinionAreaOpinionEEIimg{ width:65px; height:26px; margin-left:735px; margin-top:13px; border:none; position:absolute}
+
+
+.OpinionAreaQPClose{width:40px; height:40px; top:5px; left:760px; position:absolute; z-index:114;cursor:pointer;  background:url("../FrameImg/sitelogo/CloseBut.png" ) no-repeat scroll}

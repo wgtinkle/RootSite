@@ -1,0 +1,74 @@
+﻿
+.ArticlePublic { margin-left:800px; width:100px;  height:40px;  margin-top:30px; position:relative; line-height:40px;font-family:"黑体"; font-size:20px; color:#666666; cursor:pointer;background:url("../FrameImg/sitelogo/imgShare.png" ) no-repeat scroll }
+
+.ArticleTagArea{ margin-left:25px; margin-top:25px; width:900px; height:50px; position:relative}
+.ArticleLbut{ width:50px; height:100%; position:absolute;background:url("../FrameImg/sitelogo/ResIndexLbut.png" ) no-repeat scroll; cursor:pointer}
+.ArticleTagBrowser{ width:800px; height:100%; margin-left:50px; overflow:hidden; position:absolute}
+.ArticleTagBrowser ul{ list-style-type:none; font-size:0px; margin:0; padding:0; width:800px; height:100%; position:absolute;}
+.ArticleTagBrowser li{ width:98px; height:100%; float:left; position:relative; text-align:center; line-height:50px; font-family:"黑体"; color:#666666; font-size:15px; border-left:1px solid #eeeeee; border-right:1px solid #eeeeee; cursor:pointer}
+.ArticleRbut{width:50px; height:100%;margin-left:850px; position:absolute;background:url("../FrameImg/sitelogo/ResIndexRbut.png" ) no-repeat scroll; cursor:pointer}
+
+/*排行区*/
+.ArticleRank{ margin-left:25px; margin-top:20px; width:894px; height:220px; position:relative; float:left; border:1px solid #ededef}
+.ArticleRank ul{list-style-type:none; font-size:0px; margin:0; padding:0; width:894px; height:100%; position:absolute;}
+.ArticleRank li{ margin-left:24px; margin-top:20px; width:148px; height:180px; position:relative; float:left;border:1px solid #ededef;box-shadow: 2px 3px 5px #a2a2a3 }
+.ArticleRankT{ width:140px; height:30px; margin-top:5px; margin-left:5px; position:absolute; line-height:30px; font-size:15px; text-align:center;font-family:"黑体";}
+.ArticleRankC{ width:138px; height:120px;margin-top:35px; margin-left:5px; position:absolute; }
+.ArticleRankC p{ margin:0px; padding:0px; width:138px; height:120px; position:absolute; font-size:12px; line-height:15px;}
+.ArticleRankTime{ width:140px; height:20px;margin-top:155px; margin-left:5px; position:absolute; line-height:20px; font-size:12px; color:#aaaaaa }
+
+
+/*内容区*/
+.ArticleArea{ margin-left:0px; margin-top:20px; width:950px; height:auto; position:relative; float:left}
+.ArticleArea ul{list-style-type:none; font-size:0px; margin:0; padding:0; width:100%; height:auto; position:relative;}
+.ArticleArea li{ margin-left:25px; margin-top:25px; width:900px; height:298px; position:relative;border:1px solid #ededef;}
+.ArticleAreaT{  margin-top:20px; margin-left:25px; width:850px; height:40px; line-height:40px; font-family:"黑体"; color:#666666; font-size:22px; position:absolute}
+.ArticleAreaImg{margin-top:65px; margin-left:25px; width:350px; height:175px; position:absolute}
+.ArticleAreaImg img{ width:100%; height:100%; position:relative}
+.ArticleAreaC{margin-top:65px; margin-left:400px; width:475px; height:175px; position:absolute}
+.ArticleAreaC p{margin:0px; padding:0px; width:475px; height:175px; position:absolute; font-size:15px; line-height:20px;}
+.ArticleAreaShoucB{margin-top:250px; margin-left:25px; width:80px; height:30px; position:absolute; cursor:pointer; background:url("../FrameImg/sitelogo/ShouCangbut.png" ) no-repeat scroll}
+.ArticleAreaReadMore{margin-top:255px; margin-left:815px; width:60px; height:30px; font-size:12px; color:#aaaaaa; line-height:30px; position:absolute; cursor:pointer; position:absolute}
+.ArticleInfo{ width:0; height:0; position:absolute;}
+/*内容加载区*/
+.ArticleLoad{ display:block; margin-left:25px; margin-top:20px; width:900px; height:30px; position:relative;float:left}
+
+/*幻灯加载*/
+.ArticleAreaArticleBK{ display:none; left:0px; top:0px; width:100px; height:100px; position:fixed; z-index:110; background-color:Black; filter:alpha(opacity=90); -moz-opacity:0.9; -khtml-opacity: 0.9; opacity: 0.9;}
+
+.ArticleAreaArticleC{display:none; width:600px; height:600px; position:fixed; z-index:111; background-color:White}
+.ArticleFrameC{ width:100%; height:100%; position:absolute; z-index:111;}
+.ArticleAreaArticleClose{ width:40px; height:40px; position:absolute; z-index:112;cursor:pointer;  background:url("../FrameImg/sitelogo/CloseBut.png" ) no-repeat scroll}
+
+.ArticlePublicArticle{display:none; width:100%; height:600px; position:fixed; z-index:113;}
+.ArticleForm{ width:650px; height:100%; position:absolute}
+
+.ArticlePublicImg{ display:none; width:0;height:0; position:absolute}
+
+.ArticleTitle{ width:650px; height:50px; margin-top:10px; position:relative;}
+.ArticleTitleL{ margin-left:5px;  width:60px; height:20px; position:absolute; line-height:20px; font-size:15px; color:White}
+.ArticleTitle input{ margin-left:75px; width:575px; height:22px; outline:none; position:absolute;}
+
+.ArticleTag{width:650px; height:30px; position:relative;}
+.ArticleTagT{margin-left:5px;  width:60px; height:30px; position:absolute; font-size:15px; color:White; line-height:30px;}
+.ArticleTag  input{ display:block; margin-left:75px; width:300px; height:22px; margin-top:3px; position:absolute;}
+.ArticleTagNote{margin-left:385px; width:265px; height:30px; position:absolute; font-size:13px; line-height:30px; color:White}
+
+.ArticleContent{width:650px; height:400px; margin-top:25px; position:relative;}
+.ArticleContentT{margin-left:5px;  width:640px; height:30px; position:absolute; line-height:30px; font-size:15px; color:White}
+.ArticleContentCC{ display:block; margin-left:5px; width:640px; height:350px; margin-top:30px; position:absolute;}
+.ArticleEdit{ display:block; width:640px; height:100%; position:absolute}
+
+.ArticleSubmitBtn{ width:650px; height:30px; margin-top:5px; position:relative;}
+.ArticleSubmitBtnOk{ width:80px; height:30px; margin-left:5px; position:absolute; text-align:center; line-height:30px; background-color:White; cursor:pointer}
+.ArticlePreviewBtn{width:80px; height:30px; margin-left:570px; position:absolute; text-align:center; line-height:30px; background-color:White; cursor:pointer}
+
+.ArticlePreview{ width:600px; height:490px; margin-left:700px; margin-top:10px; position:absolute; background-color:White; overflow:auto}
+.ArticlePreviewTitle{ margin-top:5px; width:100%; height:50px; position:absolute; font-size:28px; font-family:"黑体"; text-align:center; line-height:50px;}
+.ArticlePreviewAuthor{margin-top:65px;margin-left:5px; width:345px; height:25px; position:absolute; font-size:13px; line-height:25px; color:Gray}
+.ArticlePreviewInfo{ margin-top:65px; margin-left:350px; width:300px; height:25px; position:absolute; font-size:13px; line-height:25px; color:Gray}
+.ArticlePreviewTag{margin-top:100px; margin-left:5px; width:640px; height:24px; position:absolute; font-size:13px; line-height:24px; color:Gray; border-bottom:1px dashed Gray}
+.ArticlePreviewContent{ margin-top:150px; margin-left:5px; width:640px; height:auto; position:absolute;}
+
+.ArticlePublicArticleClose{width:40px; height:40px; left:1300px; position:absolute; z-index:114;cursor:pointer;  background:url("../FrameImg/sitelogo/CloseBut.png" ) no-repeat scroll}
+

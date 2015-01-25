@@ -1,0 +1,25 @@
+﻿
+.PersonSearch { margin-left:25px; width:900px;  height:40px;  margin-top:30px; position:relative;  }
+
+.PersonTagArea{ margin-left:25px; margin-top:25px; width:900px; height:50px; position:relative}
+.PersonLbut{ width:50px; height:100%; position:absolute;background:url("../FrameImg/sitelogo/ResIndexLbut.png" ) no-repeat scroll; cursor:pointer}
+.PersonTagBrowser{ width:800px; height:100%; margin-left:50px; overflow:hidden; position:absolute}
+.PersonTagBrowser ul{ list-style-type:none; font-size:0px; margin:0; padding:0; width:800px; height:100%; position:absolute;}
+.PersonTagBrowser li{ width:98px; height:100%; float:left; position:relative; text-align:center; line-height:50px; font-family:"黑体"; color:#666666; font-size:15px; border-left:1px solid #eeeeee; border-right:1px solid #eeeeee; cursor:pointer}
+.PersonRbut{width:50px; height:100%;margin-left:850px; position:absolute;background:url("../FrameImg/sitelogo/ResIndexRbut.png" ) no-repeat scroll; cursor:pointer}
+
+.PersonContent{ margin-left:0px; margin-top:20px; width:950px; height:auto; position:relative; float:left}
+.PersonContent ul{list-style-type:none; font-size:0px; margin:0; padding:0; width:100%; height:auto; position:relative;}
+.PersonContent li{ margin-left:25px; margin-top:20px; width:204px; height:308px; position:relative; float:left;/*border:1px solid #ededef*/}
+.PersonTag{ margin-left:10px; margin-top:10px; width:184px; height:30px; position:absolute; text-align:center; font-size:18px;line-height:30px; font-family:"黑体"; color:#666666;}
+.PersonHead{ margin-left:42px; margin-top:55px; width:120px; height:120px; position:absolute}
+.PersonHead img{ width:100%; height:100%; position:relative;border-radius:60px; border:1px solid #dfdfdf}
+.PersonName{margin-left:10px; margin-top:215px; width:184px; height:30px; position:absolute; text-align:center; font-size:18px;line-height:30px; font-family:"黑体"; color:#afafaf;}
+.PersonBut{ margin-left:10px;margin-top:255px;width:184px; height:40px; position:absolute;}
+.PersonButGuanzhu{ margin-left:20px;width:40px; height:40px; position:absolute;background:url("../FrameImg/sitelogo/guanzhu.png" ) no-repeat scroll; cursor:pointer}
+.PersonButXiaoxi{margin-left:74px;width:40px; height:40px; position:absolute;background:url("../FrameImg/sitelogo/xiaoxi.png" ) no-repeat scroll; cursor:pointer}
+.PersonButJiaoyou{margin-left:124px;width:40px; height:40px; position:absolute;background:url("../FrameImg/sitelogo/jiaoyou.png" ) no-repeat scroll; cursor:pointer}
+/*内容加载区*/
+.PersonLoad{ display:block; margin-left:25px; margin-top:20px; width:900px; height:30px; position:relative;float:left}
+
+

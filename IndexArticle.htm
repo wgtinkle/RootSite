@@ -1,0 +1,302 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+    <title>AllWithMe!</title>
+    <link href="./FrameCss/FrameStyle.css" rel="stylesheet" type="text/css"></link>
+    <link href="./FrameCss/IndexArticleStyle.css" rel="stylesheet" type="text/css"></link>
+
+    <script type="text/javascript" src="./FrameJs/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="./FramePlug/JqCookie/jquery.cookies.2.2.0.min.js"></script>
+    <script type="text/javascript" src="./FrameJs/jquery-migrate-1.1.0.min.js"></script>
+    <script type="text/javascript" src="./FrameJs/jsFrame.js"></script>
+    <script type="text/javascript" src="./FramePlug/CommentEdit/xheditor-1.2.1.min.js"></script>
+    <script type="text/javascript" src="./FramePlug/CommentEdit/xheditor_lang/zh-cn.js"></script>
+    <script type="text/javascript" src="./FramePlug/jqForm/jquery.form.js"></script>
+    <script type="text/javascript" src="./FrameJs/jsIndexArticle.js"></script>
+</head>
+<body >    
+        <div class = "FrameMenuBk"></div>
+        <div class = "ArticleAreaArticleBK"></div>
+        <div class = "ArticleAreaArticleC">
+              <div class ="ArticleAreaArticleClose"></div> 
+              <iframe class = "ArticleFrameC" src= "PageArticle/ArticleTest.htm" frameborder="0"; scrolling="auto"></iframe>
+        </div>
+        <div class = "ArticlePublicArticle">
+            <div class = "ArticlePublicArticleClose"></div>
+            <form class ="ArticleForm" name = "UpLoadArticleForm">
+                <div class = "ArticlePublicImg" id = "ArticlePublicImg"></div>
+                <div class = "ArticleTitle">
+                    <div class = "ArticleTitleL">文章标题</div>
+                    <input  id = "ArtilceTitle"/>
+                </div>
+                <div class = "ArticleTag">                    
+                    <div class = "ArticleTagT">文章标签</div>
+                    <input  id = "ArtilceTag"/>
+                    <div class = "ArticleTagNote" >（最多5个标签，多个标签之间用“,”分隔）</div>
+                </div>
+                <div class = "ArticleContent">
+                    <div class = "ArticleContentT">文章内容</div>
+                    <div class = "ArticleContentCC">
+                        <textarea class= "ArticleEdit" rows="20"; cols="89"></textarea>
+                    </div>                                
+                </div>
+                <div class = "ArticleSubmitBtn">
+                    <div class = "ArticleSubmitBtnOk">提交</div>
+                    <div class = "ArticlePreviewBtn">预览</div>
+                </div>
+             </form> 
+             <div class = "ArticlePreview">
+                <div class = "ArticlePreviewTitle" id= "ArticlePreviewTitle">文章标题内容</div>
+                <div class = "ArticlePreviewAuthor" id= "ArticlePreviewAuthor">作者:神秘人</div>
+                <div class = "ArticlePreviewInfo" id = "ArticlePreviewInfo">2014-12-30 18:42 阅读(0) 评论(0) 收藏(0)</div>
+                <div class = "ArticlePreviewTag" id = "ArticlePreviewTag">标签: 搜索 开源 神秘 算法</div>
+                <div class = "ArticlePreviewContent" id = "ArticlePreviewContent"></div>
+             </div>                           
+        </div>
+        <div class = "FramePage">         
+            <div class = "LoadRegBk"></div>
+            <div class = "FrameMenu">
+                <a class = "FrameMenuLog" href="Index.htm"></a>
+                <div class = "FrameMenuC">
+                    <div class = "MenuRobot"><img src="FrameImg/UserHead/HeadAdmin.jpg"/></div>
+                    <label class ="RobotTalk">您好，欢迎您的访问，祝您愉快！</label>
+                    <input class ="MenuUserTalk"></input>
+                    <div class = "MenuUserBut">发送</div>
+                    <div class = "MenuUser"><img id="MenuUserImg" src="FrameImg/UserHead/HeadUser.jpg"/></div>
+                </div>
+                <div class = "FrameLR">
+                    <div class = "FrameUnLoad">
+                        <div class = "UserLoad">登  录
+                            <div class = "UserLoadPage">
+                                <div class = "UserLoadPageTitle">用户登录</div>
+                                <ul>
+                                <li><label>用户名</label><input type ="text" class="UserNameL" id = "UserNameL" /></li>
+                                <li><label>密  码</label><input type="password";class="UserPwdL"  id = "UserPwdL"/></li>
+                                <li><div class = "UserLoadBut">登    录</div><div class = "UserLoadCancle">取  消</div></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class = "UserRegister">注    册
+                            <div class = "RegisterPage">
+                                <div class = "RegisterPageTitle">用户登录注册</div>
+                                <ul>
+                                <li><label>用户名</label><input type ="text" class="UserNameL" id = "UserNameR"/></li>
+                                <li><label>密  码</label><input type="password";class="UserPwdL" id = "UserPwdR"/></li>
+                                <li><div class = "UserRegBut">注  册</div><div class = "UserRegCancle">取  消</div></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "FrameLoad">
+                        <div class = "UserZone">我的地盘</div>
+                        <div class = "UserQuit">退    出</div>
+                    </div>
+                </div>
+            </div>
+            <div class = "FrameContent">                
+                <div class = "ArticlePublic"></div>
+                <div class = "ArticleTagArea">
+                    <div class = "ArticleLbut"></div>
+                    <div class = "ArticleTagBrowser">
+                        <ul>
+                            <li>科技</li>
+                            <li>金融</li>
+                            <li>体育</li>
+                            <li>游戏</li>
+                            <li>教育</li>
+                            <li>历史</li>
+                            <li>艺术</li>
+                            <li>娱乐</li>
+                            <li>发展</li>
+                            <li>旅游</li>
+                            <li>动漫</li>
+                            <li>人物</li>
+                            <li>游戏</li>
+                            <li>植物</li>
+                            <li>电影</li>
+                            <li>风景</li>
+                            <li>服饰</li>
+                            <li>饰品</li>
+                            <li>科学</li>
+                            <li>概念</li>
+                        </ul>
+                    </div>
+                    <div class = "ArticleRbut"></div>
+                </div>
+                <div class = "ArticleRank">
+                    <ul>
+                        <li>
+                            <div class = "ArticleRankT">我的心情</div>
+                            <div class = "ArticleRankC"><p>&nbsp &nbsp svg格式具备目前网络流行的jpg和png等格式无法具备的优势：可以任意放大图形显示，但绝不会以牺牲图像质量为代价;svg文件比其它格式的图像文件要小很多。</p></div>
+                            <div class = "ArticleRankTime">发布于1小时前</div>   
+                            <div class = "ArticleInfo"></div>                         
+                        </li>
+                        <li>
+                            <div class = "ArticleRankT">我的心情</div>
+                            <div class = "ArticleRankC"><p>&nbsp &nbsp svg格式具备目前网络流行的jpg和png等格式无法具备的优势：可以任意放大图形显示，但绝不会以牺牲图像质量为代价;svg文件比其它格式的图像文件要小很多。</p></div>
+                            <div class = "ArticleRankTime">发布于1小时前</div>
+                            <div class = "ArticleInfo"></div>
+                        </li>
+                        <li>
+                            <div class = "ArticleRankT">我的心情</div>
+                            <div class = "ArticleRankC"><p>&nbsp &nbsp svg格式具备目前网络流行的jpg和png等格式无法具备的优势：可以任意放大图形显示，但绝不会以牺牲图像质量为代价;svg文件比其它格式的图像文件要小很多。</p></div>
+                            <div class = "ArticleRankTime">发布于1小时前</div>
+                            <div class = "ArticleInfo"></div>
+                        </li>
+                        <li>
+                            <div class = "ArticleRankT">我的心情</div>
+                            <div class = "ArticleRankC"><p>&nbsp &nbsp svg格式具备目前网络流行的jpg和png等格式无法具备的优势：可以任意放大图形显示，但绝不会以牺牲图像质量为代价;svg文件比其它格式的图像文件要小很多。</p></div>
+                            <div class = "ArticleRankTime">发布于1小时前</div>
+                            <div class = "ArticleInfo"></div>
+                        </li>
+                        <li>
+                            <div class = "ArticleRankT">我的心情</div>
+                            <div class = "ArticleRankC"><p>&nbsp &nbsp svg格式具备目前网络流行的jpg和png等格式无法具备的优势：可以任意放大图形显示，但绝不会以牺牲图像质量为代价;svg文件比其它格式的图像文件要小很多。</p></div>
+                            <div class = "ArticleRankTime">发布于1小时前</div>
+                            <div class = "ArticleInfo"></div>
+                        </li>
+                    </ul>
+                </div>
+                <div class = "ArticleArea">
+                    <ul>
+                        <li>
+                            <div class = "ArticleAreaT">我的文章标题</div>
+                            <div class = "ArticleAreaImg"><img  src = "PageArticle/PageArticleImg/Article1.jpg" /></div>
+                            <div class = "ArticleAreaC">
+                                <p>LOFTER官方博客 - 产品公告、模版更新,博客推荐... 每一天我们都会接触、使用和消费到许多品牌,品牌构成了生活也影响了我们,全新的LOFTER「品牌」因此诞生,旨在可以从...<br />
+                                        LOFTER是网易公司2011年8月下旬推出的一款轻博客产品。LOFTER专注于为用户提供简约、易用、有品质、重原创的博客工具、原创社区，以及有品质的手机博客应用。
+                                </p></div>
+                            <div class = "ArticleAreaShoucB"></div>
+                            <div class = "ArticleAreaReadMore">仔细阅读</div>
+                            <div class = "ArticleInfo"></div>
+                        </li>
+                        <li>
+                            <div class = "ArticleAreaT">我的文章标题</div>
+                            <div class = "ArticleAreaImg"><img  src = "PageArticle/PageArticleImg/Article1.jpg" /></div>
+                            <div class = "ArticleAreaC">
+                                <p>LOFTER官方博客 - 产品公告、模版更新,博客推荐... 每一天我们都会接触、使用和消费到许多品牌,品牌构成了生活也影响了我们,全新的LOFTER「品牌」因此诞生,旨在可以从...<br />
+                                        LOFTER是网易公司2011年8月下旬推出的一款轻博客产品。LOFTER专注于为用户提供简约、易用、有品质、重原创的博客工具、原创社区，以及有品质的手机博客应用。
+                                </p></div>
+                            <div class = "ArticleAreaShoucB"></div>
+                            <div class = "ArticleAreaReadMore">仔细阅读</div>
+                            <div class = "ArticleInfo"></div>
+                        </li>
+                        <li>
+                            <div class = "ArticleAreaT">我的文章标题</div>
+                            <div class = "ArticleAreaImg"><img  src = "PageArticle/PageArticleImg/Article1.jpg" /></div>
+                            <div class = "ArticleAreaC">
+                                <p>LOFTER官方博客 - 产品公告、模版更新,博客推荐... 每一天我们都会接触、使用和消费到许多品牌,品牌构成了生活也影响了我们,全新的LOFTER「品牌」因此诞生,旨在可以从...<br />
+                                        LOFTER是网易公司2011年8月下旬推出的一款轻博客产品。LOFTER专注于为用户提供简约、易用、有品质、重原创的博客工具、原创社区，以及有品质的手机博客应用。
+                                </p></div>
+                            <div class = "ArticleAreaShoucB"></div>
+                            <div class = "ArticleAreaReadMore">仔细阅读</div>
+                            <div class = "ArticleInfo"></div>
+                        </li>
+                        <li>
+                            <div class = "ArticleAreaT">我的文章标题</div>
+                            <div class = "ArticleAreaImg"><img  src = "PageArticle/PageArticleImg/Article1.jpg" /></div>
+                            <div class = "ArticleAreaC">
+                                <p>LOFTER官方博客 - 产品公告、模版更新,博客推荐... 每一天我们都会接触、使用和消费到许多品牌,品牌构成了生活也影响了我们,全新的LOFTER「品牌」因此诞生,旨在可以从...<br />
+                                        LOFTER是网易公司2011年8月下旬推出的一款轻博客产品。LOFTER专注于为用户提供简约、易用、有品质、重原创的博客工具、原创社区，以及有品质的手机博客应用。
+                                </p></div>
+                            <div class = "ArticleAreaShoucB"></div>
+                            <div class = "ArticleAreaReadMore">仔细阅读</div>
+                            <div class = "ArticleInfo"></div>
+                        </li>
+                        <li>
+                            <div class = "ArticleAreaT">我的文章标题</div>
+                            <div class = "ArticleAreaImg"><img  src = "PageArticle/PageArticleImg/Article1.jpg" /></div>
+                            <div class = "ArticleAreaC">
+                                <p>LOFTER官方博客 - 产品公告、模版更新,博客推荐... 每一天我们都会接触、使用和消费到许多品牌,品牌构成了生活也影响了我们,全新的LOFTER「品牌」因此诞生,旨在可以从...<br />
+                                        LOFTER是网易公司2011年8月下旬推出的一款轻博客产品。LOFTER专注于为用户提供简约、易用、有品质、重原创的博客工具、原创社区，以及有品质的手机博客应用。
+                                </p></div>
+                            <div class = "ArticleAreaShoucB"></div>
+                            <div class = "ArticleAreaReadMore">仔细阅读</div>
+                            <div class = "ArticleInfo"></div>
+                        </li>
+                        <li>
+                            <div class = "ArticleAreaT">我的文章标题</div>
+                            <div class = "ArticleAreaImg"><img  src = "PageArticle/PageArticleImg/Article1.jpg" /></div>
+                            <div class = "ArticleAreaC">
+                                <p>LOFTER官方博客 - 产品公告、模版更新,博客推荐... 每一天我们都会接触、使用和消费到许多品牌,品牌构成了生活也影响了我们,全新的LOFTER「品牌」因此诞生,旨在可以从...<br />
+                                        LOFTER是网易公司2011年8月下旬推出的一款轻博客产品。LOFTER专注于为用户提供简约、易用、有品质、重原创的博客工具、原创社区，以及有品质的手机博客应用。
+                                </p></div>
+                            <div class = "ArticleAreaShoucB"></div>
+                            <div class = "ArticleAreaReadMore">仔细阅读</div>
+                            <div class = "ArticleInfo"></div>
+                        </li>
+                        <li>
+                            <div class = "ArticleAreaT">我的文章标题</div>
+                            <div class = "ArticleAreaImg"><img  src = "PageArticle/PageArticleImg/Article1.jpg" /></div>
+                            <div class = "ArticleAreaC">
+                                <p>LOFTER官方博客 - 产品公告、模版更新,博客推荐... 每一天我们都会接触、使用和消费到许多品牌,品牌构成了生活也影响了我们,全新的LOFTER「品牌」因此诞生,旨在可以从...<br />
+                                        LOFTER是网易公司2011年8月下旬推出的一款轻博客产品。LOFTER专注于为用户提供简约、易用、有品质、重原创的博客工具、原创社区，以及有品质的手机博客应用。
+                                </p></div>
+                            <div class = "ArticleAreaShoucB"></div>
+                            <div class = "ArticleAreaReadMore">仔细阅读</div>
+                            <div class = "ArticleInfo"></div>
+                        </li>
+                        <li>
+                            <div class = "ArticleAreaT">我的文章标题</div>
+                            <div class = "ArticleAreaImg"><img  src = "PageArticle/PageArticleImg/Article1.jpg" /></div>
+                            <div class = "ArticleAreaC">
+                                <p>LOFTER官方博客 - 产品公告、模版更新,博客推荐... 每一天我们都会接触、使用和消费到许多品牌,品牌构成了生活也影响了我们,全新的LOFTER「品牌」因此诞生,旨在可以从...<br />
+                                        LOFTER是网易公司2011年8月下旬推出的一款轻博客产品。LOFTER专注于为用户提供简约、易用、有品质、重原创的博客工具、原创社区，以及有品质的手机博客应用。
+                                </p></div>
+                            <div class = "ArticleAreaShoucB"></div>
+                            <div class = "ArticleAreaReadMore">仔细阅读</div>
+                            <div class = "ArticleInfo"></div>
+                        </li>
+                        <li>
+                            <div class = "ArticleAreaT">我的文章标题</div>
+                            <div class = "ArticleAreaImg"><img  src = "PageArticle/PageArticleImg/Article1.jpg" /></div>
+                            <div class = "ArticleAreaC">
+                                <p>LOFTER官方博客 - 产品公告、模版更新,博客推荐... 每一天我们都会接触、使用和消费到许多品牌,品牌构成了生活也影响了我们,全新的LOFTER「品牌」因此诞生,旨在可以从...<br />
+                                        LOFTER是网易公司2011年8月下旬推出的一款轻博客产品。LOFTER专注于为用户提供简约、易用、有品质、重原创的博客工具、原创社区，以及有品质的手机博客应用。
+                                </p></div>
+                            <div class = "ArticleAreaShoucB"></div>
+                            <div class = "ArticleAreaReadMore">仔细阅读</div>
+                            <div class = "ArticleInfo"></div>
+                        </li>
+                        <li>
+                            <div class = "ArticleAreaT">我的文章标题</div>
+                            <div class = "ArticleAreaImg"><img  src = "PageArticle/PageArticleImg/Article1.jpg" /></div>
+                            <div class = "ArticleAreaC">
+                                <p>LOFTER官方博客 - 产品公告、模版更新,博客推荐... 每一天我们都会接触、使用和消费到许多品牌,品牌构成了生活也影响了我们,全新的LOFTER「品牌」因此诞生,旨在可以从...<br />
+                                        LOFTER是网易公司2011年8月下旬推出的一款轻博客产品。LOFTER专注于为用户提供简约、易用、有品质、重原创的博客工具、原创社区，以及有品质的手机博客应用。
+                                </p></div>
+                            <div class = "ArticleAreaShoucB"></div>
+                            <div class = "ArticleAreaReadMore">仔细阅读</div>
+                            <div class = "ArticleInfo"></div>
+                        </li>
+                    </ul>
+                </div>                
+                <div class = "ArticleLoad"></div>
+            </div>
+            <div class = "FrameFoot">
+                <div class = "FrameFootTag">
+                    <ul>
+                        <li>网站简介</li>
+                        <li>About Us</li>
+                        <li>联系我们</li>
+                        <li>友情链接</li>
+                        <li>网站导航</li>
+                    </ul>
+                </div>
+                <div class = "FrameFootCopyRight">Copyright ©2014 , All Rights Reserved</div>
+                <div class = "FrameFootPhoneMail">联系方式：18664350014  邮箱：wgtinkle@163.com</div>
+                <div class = "FrameFootIcp"><a href = "http://www.miitbeian.gov.cn/">ICP证粤14087076号</a></div>
+            </div>
+    </div>
+</body>
+</html>
+<script type="text/javascript">
+    $(document).ready(function () {
+        FrameInit();
+        IndexArticleInit();
+    });
+
+</script>
+

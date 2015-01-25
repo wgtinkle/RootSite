@@ -1,0 +1,263 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+    <title>AllWithMe!</title>
+    <link href="./FrameCss/FrameStyle.css" rel="stylesheet" type="text/css"></link>
+    <link href="./FrameCss/IndexDataStyle.css" rel="stylesheet" type="text/css"></link>
+
+    <script type="text/javascript" src="./FrameJs/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="./FramePlug/JqCookie/jquery.cookies.2.2.0.min.js"></script>
+    <script type="text/javascript" src="./FrameJs/jquery-migrate-1.1.0.min.js"></script>
+    <script type="text/javascript" src="./FrameJs/jsFrame.js"></script>
+    <script type="text/javascript" src="./FramePlug/CommentEdit/xheditor-1.2.1.min.js"></script>
+    <script type="text/javascript" src="./FramePlug/CommentEdit/xheditor_lang/zh-cn.js"></script>
+    <script type="text/javascript" src="./FramePlug/jqForm/jquery.form.js"></script>
+    <script type="text/javascript" src="./FrameJs/jsIndexData.js"></script>
+</head>
+<body >    
+        <div class = "FrameMenuBk"></div>
+        <div class = "DataAreaDataBK"></div>
+        <div class = "DataPublicData">
+            <div class = "DataPublicDataClose"></div>
+            <form class ="DataForm" name = "UpLoadDataForm">
+                <div class = "DataImgInfo"></div>
+                <div class = "DataTitle">
+                    <div class = "DataTitleL">想法标题</div>
+                    <input  id = "DataTitle"/>
+                </div>
+                <div class = "DataTag">
+                    <div class = "DataTagT">想法标签</div>
+                    <input  id = "DataTag"/>
+                    <div class = "DataTagNote" >（最多5个标签，多个标签之间用“,”分隔）</div>
+                </div>
+                <div class = "DataContent">
+                    <div class = "DataContentT">想法内容</div>
+                    <div class = "DataContentCC">
+                        <textarea class= "DataEdit" rows="20"; cols="89"></textarea>
+                    </div>                                
+                </div>
+                <div class = "DataSubmitBtn">
+                    <div class = "DataSubmitBtnOk">提交</div>
+                    <div class = "DataPreviewBtn">预览</div>
+                </div>
+             </form> 
+             <div class = "DataPreview">
+                <div class = "DataPreviewTitle" id= "DataPreviewTitle">想法标题内容</div>
+                <div class = "DataPreviewAuthor" id= "DataPreviewAuthor">作者:神秘人</div>
+                <div class = "DataPreviewInfo" id = "DataPreviewInfo">2014-12-30 18:42 阅读(0) 评论(0) 收藏(0)</div>
+                <div class = "DataPreviewTag" id = "DataPreviewTag">标签: 搜索 开源 神秘 算法</div>
+                <div class = "DataPreviewContent" id = "DataPreviewContent"></div>
+             </div>                           
+        </div>
+        <div class = "FramePage">
+            <div class = "LoadRegBk"></div>
+            <div class = "FrameMenu">
+                <a class = "FrameMenuLog" href="Index.htm"></a>
+                <div class = "FrameMenuC">
+                    <div class = "MenuRobot"><img src="FrameImg/UserHead/HeadAdmin.jpg"/></div>
+                    <label class ="RobotTalk">您好，欢迎您的访问，祝您愉快！</label>
+                    <input class ="MenuUserTalk"></input>
+                    <div class = "MenuUserBut">发送</div>
+                    <div class = "MenuUser"><img id="MenuUserImg" src="FrameImg/UserHead/HeadUser.jpg"/></div>
+                </div>
+                <div class = "FrameLR">
+                    <div class = "FrameUnLoad">
+                        <div class = "UserLoad">登  录
+                            <div class = "UserLoadPage">
+                                <div class = "UserLoadPageTitle">用户登录</div>
+                                <ul>
+                                <li><label>用户名</label><input type ="text" class="UserNameL" id = "UserNameL" /></li>
+                                <li><label>密  码</label><input type="password";class="UserPwdL"  id = "UserPwdL"/></li>
+                                <li><div class = "UserLoadBut">登    录</div><div class = "UserLoadCancle">取  消</div></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class = "UserRegister">注    册
+                            <div class = "RegisterPage">
+                                <div class = "RegisterPageTitle">用户登录注册</div>
+                                <ul>
+                                <li><label>用户名</label><input type ="text" class="UserNameL" id = "UserNameR"/></li>
+                                <li><label>密  码</label><input type="password";class="UserPwdL" id = "UserPwdR"/></li>
+                                <li><div class = "UserRegBut">注  册</div><div class = "UserRegCancle">取  消</div></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "FrameLoad">
+                        <div class = "UserZone">我的地盘</div>
+                        <div class = "UserQuit">退    出</div>
+                    </div>
+                </div>
+            </div>
+            <div class = "FrameContent">
+                <div class = "DataArticleAuthor">
+                    <div class = "DataArticleHead"><img  src ="FrameImg/UserHead/UserHead8.jpg"/></div>
+                    <div class = "DataArticleUName">淘气大笨孩</div>
+                    <div class = "DataArticleButShouC"></div>
+                </div>
+                <div class = "DataPublic"></div>
+                <div class = "DataTagArea">
+                    <div class = "DataLbut"></div>
+                    <div class = "DataTagBrowser">
+                        <ul>
+                            <li>科技</li>
+                            <li>金融</li>
+                            <li>体育</li>
+                            <li>游戏</li>
+                            <li>教育</li>
+                            <li>历史</li>
+                            <li>艺术</li>
+                            <li>娱乐</li>
+                            <li>发展</li>
+                            <li>旅游</li>
+                        </ul>
+                    </div>
+                    <div class = "DataRbut"></div>
+                </div>
+                <div class = "DataArticleList">                        
+                            <div class = "DataArticleListTopBut"></div>
+                            <div class = "DataArticleListContent">
+                                <ul>
+                                    <li>
+                                        <div class = "DataArticleListT">世界上最诡异的葡萄酒法律</div>
+                                        <div class = "DataArticleListTime">2014-11-25</div>
+                                        <div class = "DataArticleListImg"><img src = "PageData/PageDataImg/dadaimg1.jpg" /></div>
+                                        <div class = "DataArticleListCC"><p>法律是个严肃正经的玩意，但到了葡萄酒这块，居然玩起了诡异！这世界上最诡异的葡萄酒法律想必你闻所未闻</p></div>
+                                        <div class = "DataArticleListInfo">UserHead1.jpg,用户昵称,datacontent1.htm</div>
+                                    </li>
+                                    <li>
+                                        <div class = "DataArticleListT">世界上最诡异的葡萄酒法律</div>
+                                        <div class = "DataArticleListTime">2014-11-25</div>
+                                        <div class = "DataArticleListImg"><img src = "PageData/PageDataImg/dadaimg2.jpg" /></div>
+                                        <div class = "DataArticleListCC"><p>法律是个严肃正经的玩意，但到了葡萄酒这块，居然玩起了诡异！这世界上最诡异的葡萄酒法律想必你闻所未闻</p></div>
+                                        <div class = "DataArticleListInfo">UserHead6.jpg,用户昵称,datacontent2.htm</div>
+                                    </li>
+                                    <li>
+                                        <div class = "DataArticleListT">世界上最诡异的葡萄酒法律</div>
+                                        <div class = "DataArticleListTime">2014-11-25</div>
+                                        <div class = "DataArticleListImg"><img src = "PageData/PageDataImg/dadaimg3.jpg" /></div>
+                                        <div class = "DataArticleListCC"><p>法律是个严肃正经的玩意，但到了葡萄酒这块，居然玩起了诡异！这世界上最诡异的葡萄酒法律想必你闻所未闻</p></div>
+                                        <div class = "DataArticleListInfo">UserHead16.jpg,用户昵称,datacontent3.htm</div>
+                                    </li>
+                                    <li>
+                                        <div class = "DataArticleListT">世界上最诡异的葡萄酒法律</div>
+                                        <div class = "DataArticleListTime">2014-11-25</div>
+                                        <div class = "DataArticleListImg"><img src = "PageData/PageDataImg/dadaimg4.jpg" /></div>
+                                        <div class = "DataArticleListCC"><p>法律是个严肃正经的玩意，但到了葡萄酒这块，居然玩起了诡异！这世界上最诡异的葡萄酒法律想必你闻所未闻</p></div>
+                                        <div class = "DataArticleListInfo">UserHead14.jpg,用户昵称,datacontent4.htm</div>
+                                    </li>
+                                    <li>
+                                        <div class = "DataArticleListT">世界上最诡异的葡萄酒法律</div>
+                                        <div class = "DataArticleListTime">2014-11-25</div>
+                                        <div class = "DataArticleListImg"><img src = "PageData/PageDataImg/dadaimg5.jpg" /></div>
+                                        <div class = "DataArticleListCC"><p>法律是个严肃正经的玩意，但到了葡萄酒这块，居然玩起了诡异！这世界上最诡异的葡萄酒法律想必你闻所未闻</p></div>
+                                        <div class = "DataArticleListInfo">UserHead11.jpg,用户昵称,datacontent5.htm</div>
+                                    </li>
+                                    <li>
+                                        <div class = "DataArticleListT">世界上最诡异的葡萄酒法律</div>
+                                        <div class = "DataArticleListTime">2014-11-25</div>
+                                        <div class = "DataArticleListImg"><img src = "PageData/PageDataImg/dadaimg6.jpg" /></div>
+                                        <div class = "DataArticleListCC"><p>法律是个严肃正经的玩意，但到了葡萄酒这块，居然玩起了诡异！这世界上最诡异的葡萄酒法律想必你闻所未闻</p></div>
+                                        <div class = "DataArticleListInfo">UserHead8.jpg,用户昵称,datacontent6.htm</div>
+                                    </li>
+                                    <li>
+                                        <div class = "DataArticleListT">世界上最诡异的葡萄酒法律</div>
+                                        <div class = "DataArticleListTime">2014-11-25</div>
+                                        <div class = "DataArticleListImg"><img src = "PageData/PageDataImg/dadaimg7.jpg" /></div>
+                                        <div class = "DataArticleListCC"><p>法律是个严肃正经的玩意，但到了葡萄酒这块，居然玩起了诡异！这世界上最诡异的葡萄酒法律想必你闻所未闻</p></div>
+                                        <div class = "DataArticleListInfo">UserHead9.jpg,用户昵称,datacontent7.htm</div>
+                                    </li>
+                                    <li>
+                                        <div class = "DataArticleListT">世界上最诡异的葡萄酒法律</div>
+                                        <div class = "DataArticleListTime">2014-11-25</div>
+                                        <div class = "DataArticleListImg"><img src = "PageData/PageDataImg/dadaimg8.jpg" /></div>
+                                        <div class = "DataArticleListCC"><p>法律是个严肃正经的玩意，但到了葡萄酒这块，居然玩起了诡异！这世界上最诡异的葡萄酒法律想必你闻所未闻</p></div>
+                                        <div class = "DataArticleListInfo">UserHead6.jpg,用户昵称,datacontent8.htm</div>
+                                    </li>
+                                    <li>
+                                        <div class = "DataArticleListT">世界上最诡异的葡萄酒法律</div>
+                                        <div class = "DataArticleListTime">2014-11-25</div>
+                                        <div class = "DataArticleListImg"><img src = "PageData/PageDataImg/dadaimg9.jpg" /></div>
+                                        <div class = "DataArticleListCC"><p>法律是个严肃正经的玩意，但到了葡萄酒这块，居然玩起了诡异！这世界上最诡异的葡萄酒法律想必你闻所未闻</p></div>
+                                        <div class = "DataArticleListInfo">UserHead4.jpg,用户昵称,datacontent9.htm</div>
+                                    </li>
+                                    <li>
+                                        <div class = "DataArticleListT">世界上最诡异的葡萄酒法律</div>
+                                        <div class = "DataArticleListTime">2014-11-25</div>
+                                        <div class = "DataArticleListImg"><img src = "PageData/PageDataImg/dadaimg10.jpg" /></div>
+                                        <div class = "DataArticleListCC"><p>法律是个严肃正经的玩意，但到了葡萄酒这块，居然玩起了诡异！这世界上最诡异的葡萄酒法律想必你闻所未闻</p></div>
+                                        <div class = "DataArticleListInfo">UserHead3.jpg,用户昵称,datacontent10.htm</div>
+                                    </li>
+                                    <li>
+                                        <div class = "DataArticleListT">世界上最诡异的葡萄酒法律</div>
+                                        <div class = "DataArticleListTime">2014-11-25</div>
+                                        <div class = "DataArticleListImg"><img src = "PageData/PageDataImg/dadaimg11.jpg" /></div>
+                                        <div class = "DataArticleListCC"><p>法律是个严肃正经的玩意，但到了葡萄酒这块，居然玩起了诡异！这世界上最诡异的葡萄酒法律想必你闻所未闻</p></div>
+                                        <div class = "DataArticleListInfo">UserHead2.jpg,用户昵称,datacontent11.htm</div>
+                                    </li>
+                                    <li>
+                                        <div class = "DataArticleListT">世界上最诡异的葡萄酒法律</div>
+                                        <div class = "DataArticleListTime">2014-11-25</div>
+                                        <div class = "DataArticleListImg"><img src = "PageData/PageDataImg/dadaimg12.jpg" /></div>
+                                        <div class = "DataArticleListCC"><p>法律是个严肃正经的玩意，但到了葡萄酒这块，居然玩起了诡异！这世界上最诡异的葡萄酒法律想必你闻所未闻</p></div>
+                                        <div class = "DataArticleListInfo">UserHead7.jpg,用户昵称,datacontent12.htm</div>
+                                    </li>
+                                    <li>
+                                        <div class = "DataArticleListT">世界上最诡异的葡萄酒法律</div>
+                                        <div class = "DataArticleListTime">2014-11-25</div>
+                                        <div class = "DataArticleListImg"><img src = "PageData/PageDataImg/dadaimg13.jpg" /></div>
+                                        <div class = "DataArticleListCC"><p>法律是个严肃正经的玩意，但到了葡萄酒这块，居然玩起了诡异！这世界上最诡异的葡萄酒法律想必你闻所未闻</p></div>
+                                        <div class = "DataArticleListInfo">UserHead11.jpg,用户昵称,datacontent13.htm</div>
+                                    </li>
+                                    <li>
+                                        <div class = "DataArticleListT">世界上最诡异的葡萄酒法律</div>
+                                        <div class = "DataArticleListTime">2014-11-25</div>
+                                        <div class = "DataArticleListImg"><img src = "PageData/PageDataImg/dadaimg14.jpg" /></div>
+                                        <div class = "DataArticleListCC"><p>法律是个严肃正经的玩意，但到了葡萄酒这块，居然玩起了诡异！这世界上最诡异的葡萄酒法律想必你闻所未闻</p></div>
+                                        <div class = "DataArticleListInfo">UserHead5.jpg,用户昵称,datacontent14.htm</div>
+                                    </li>
+                                    <li>
+                                        <div class = "DataArticleListT">世界上最诡异的葡萄酒法律</div>
+                                        <div class = "DataArticleListTime">2014-11-25</div>
+                                        <div class = "DataArticleListImg"><img src = "PageData/PageDataImg/dadaimg15.jpg" /></div>
+                                        <div class = "DataArticleListCC"><p>法律是个严肃正经的玩意，但到了葡萄酒这块，居然玩起了诡异！这世界上最诡异的葡萄酒法律想必你闻所未闻</p></div>
+                                        <div class = "DataArticleListInfo">UserHead2.jpg,用户昵称,datacontent15.htm</div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class = "DataArticleListBotomBut"></div>
+                    </div>
+                <div class = "DataArea">                    
+                    <div class = "DataArticleFrame">
+                        <iframe class = "DataArticleFrameC" src="PageData/datacontent1.htm" frameborder="0"; scrolling="auto"></iframe>
+                    </div>
+                </div>
+            </div>            
+            <div class = "FrameFoot">
+                <div class = "FrameFootTag">
+                    <ul>
+                        <li>网站简介</li>
+                        <li>About Us</li>
+                        <li>联系我们</li>
+                        <li>友情链接</li>
+                        <li>网站导航</li>
+                    </ul>
+                </div>
+                <div class = "FrameFootCopyRight">Copyright ©2014 , All Rights Reserved</div>
+                <div class = "FrameFootPhoneMail">联系方式：18664350014  邮箱：wgtinkle@163.com</div>
+                <div class = "FrameFootIcp"><a href = "http://www.miitbeian.gov.cn/">ICP证粤14087076号</a></div>
+            </div>
+    </div>
+</body>    
+</html>
+<script type="text/javascript">
+    $(document).ready(function () {
+        FrameInit();
+        IndexDataInit();
+    });
+
+</script>
+
+

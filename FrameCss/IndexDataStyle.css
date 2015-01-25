@@ -1,0 +1,72 @@
+﻿
+.DataArticleAuthor{ margin-left:0px; margin-top:20px; width:300px; height:120px; position:absolute;}
+.DataArticleHead{ margin-top:15px; margin-left:20px; width:100px; height:100px; position:absolute;border-radius:50px;}
+.DataArticleHead img{ width:100px; height:100px; position:relative;border:1px solid #eeeeee;border-radius:50px;}
+.DataArticleUName{ width:100px; margin-left:140px; height:30px; margin-top:17px; font-size:18px; line-height:30px; font-family:"黑体";color:#666666;}
+.DataArticleButShouC{margin-left:140px;margin-top:38px; width:80px; height:30px;position:absolute; cursor:pointer; background:url("../FrameImg/sitelogo/ShouCangbut.png" ) no-repeat scroll}
+
+.DataPublic { margin-left:800px; width:100px;  height:40px;  margin-top:30px; position:relative; line-height:40px;font-family:"黑体"; font-size:20px; color:#666666; cursor:pointer;background:url("../FrameImg/sitelogo/dataShare.png" ) no-repeat scroll }
+
+.DataTagArea{ margin-left:325px; margin-top:25px; width:600px; height:50px; position:relative}
+.DataLbut{ width:50px; height:100%; position:absolute;background:url("../FrameImg/sitelogo/ResIndexLbut.png" ) no-repeat scroll; cursor:pointer}
+.DataTagBrowser{ width:500px; height:100%; margin-left:50px; overflow:hidden; position:absolute}
+.DataTagBrowser ul{ list-style-type:none; font-size:0px; margin:0; padding:0; width:500px; height:100%; position:absolute;}
+.DataTagBrowser li{ width:98px; height:100%; float:left; position:relative; text-align:center; line-height:50px; font-family:"黑体"; color:#666666; font-size:15px; border-left:1px solid #eeeeee; border-right:1px solid #eeeeee; cursor:pointer}
+.DataRbut{width:50px; height:100%;margin-left:550px; position:absolute;background:url("../FrameImg/sitelogo/ResIndexRbut.png" ) no-repeat scroll; cursor:pointer}
+
+/*内容区*/
+.DataArea{ margin-left:0px; margin-top:20px; width:650px; height:auto; position:relative; float:left}
+.DataArticleFrame{ width:650px; height:1250px; position:relative; float:left;}
+.DataArticleFrameC{ margin-left:25px; width:600px; height:1200px; position:absolute}
+
+.DataArticleList{ width:300px; height:500px;  position:relative; z-index:120; float:left}
+.DataArticleListTopBut{ margin-top:20px; width:100%; height:30px; position:relative; background:url("../FrameImg/sitelogo/UpBut.png" ) no-repeat scroll; cursor:pointer;z-index:120; }
+.DataArticleListContent{width:100%; height:1070px; margin-top:35px; position:relative;z-index:120; overflow:hidden}
+.DataArticleListContent ul{list-style-type:none; font-size:0px; margin:0; padding:0; width:100%; height:auto; position:absolute;z-index:120;}
+.DataArticleListContent li{ padding:0; margin:0; width:100%; height:178px; position:relative; border-top:1px solid #eeeeee; border-bottom:1px solid #eeeeee;z-index:120;}
+.DataArticleListT{ width:280px; height:40px; margin-left:20px; line-height:40px; font-size:18px; font-family:"黑体"; position:absolute ;z-index:120;}
+.DataArticleListTime{ width:90px; height:30px; margin-left:20px; margin-top:45px; line-height:30px; font-size:13px; position:absolute; color:#cfcfcf;z-index:120;}
+.DataArticleListImg{ width:90px; height:90px; margin-left:20px; margin-top:75px; position:absolute;z-index:120;}
+.DataArticleListImg img{ width:90px; height:90px; position:relative;z-index:120;}
+.DataArticleListCC { width:160px; height:90px;margin-top:75px; margin-left:120px; position:absolute;z-index:120;}
+.DataArticleListCC p{ padding:0; margin:0; width:100%; height:100%; line-height:20px; font-size:12px; color:#666666;z-index:120;}
+.DataArticleListInfo { display:none; width:0px; height:0px; position:absolute;}
+
+.DataArticleListBotomBut{ width:100%; height:30px;margin-top:35px; position:relative;background:url("../FrameImg/sitelogo/BottomBut.png" ) no-repeat scroll; cursor:pointer;z-index:120;}
+
+/*幻灯加载*/
+.DataAreaDataBK{ display:none; left:0px; top:0px; width:100px; height:100px; position:fixed; z-index:110; background-color:Black; filter:alpha(opacity=90); -moz-opacity:0.9; -khtml-opacity: 0.9; opacity: 0.9;}
+
+.DataAreaDataC{display:none; width:600px; height:600px; position:fixed; z-index:111; background-color:White}
+.DataFrameC{ width:100%; height:100%; position:absolute; z-index:111;}
+.DataAreaDataClose{ width:40px; height:40px; position:absolute; z-index:112;cursor:pointer;  background:url("../FrameImg/sitelogo/CloseBut.png" ) no-repeat scroll}
+
+.DataPublicData{display:none; width:100%; height:600px; position:fixed; z-index:113;}
+.DataForm{ width:650px; height:100%; position:absolute}
+
+.DataTitle{ width:650px; height:50px; margin-top:10px; position:relative;}
+.DataTitleL{ margin-left:5px;  width:60px; height:20px; position:absolute; line-height:20px; font-size:15px; color:White}
+.DataTitle input{ margin-left:75px; width:575px; height:22px; outline:none; position:absolute;}
+
+.DataTag{width:650px; height:30px; position:relative;}
+.DataTagT{margin-left:5px;  width:60px; height:30px; position:absolute; font-size:15px; color:White; line-height:30px;}
+.DataTag  input{ display:block; margin-left:75px; width:300px; height:22px; margin-top:3px; position:absolute;}
+.DataTagNote{margin-left:385px; width:265px; height:30px; position:absolute; font-size:13px; line-height:30px; color:White}
+
+.DataContent{width:650px; height:400px; margin-top:25px; position:relative;}
+.DataContentT{margin-left:5px;  width:640px; height:30px; position:absolute; line-height:30px; font-size:15px; color:White}
+.DataContentCC{ display:block; margin-left:5px; width:640px; height:350px; margin-top:30px; position:absolute;}
+.DataEdit{ display:block; width:640px; height:100%; position:absolute}
+.DataImgInfo{ display:none; width:0;height:0; position:absolute}
+.DataSubmitBtn{ width:650px; height:30px; margin-top:5px; position:relative;}
+.DataSubmitBtnOk{ width:80px; height:30px; margin-left:5px; position:absolute; text-align:center; line-height:30px; background-color:White; cursor:pointer}
+.DataPreviewBtn{width:80px; height:30px; margin-left:570px; position:absolute; text-align:center; line-height:30px; background-color:White; cursor:pointer}
+
+.DataPreview{ width:600px; height:490px; margin-left:700px; margin-top:10px; position:absolute; background-color:White; overflow:auto}
+.DataPreviewTitle{ margin-top:5px; width:100%; height:50px; position:absolute; font-size:28px; font-family:"黑体"; text-align:center; line-height:50px;}
+.DataPreviewAuthor{margin-top:65px;margin-left:5px; width:345px; height:25px; position:absolute; font-size:13px; line-height:25px; color:Gray}
+.DataPreviewInfo{ margin-top:65px; margin-left:350px; width:300px; height:25px; position:absolute; font-size:13px; line-height:25px; color:Gray}
+.DataPreviewTag{margin-top:100px; margin-left:5px; width:640px; height:24px; position:absolute; font-size:13px; line-height:24px; color:Gray; border-bottom:1px dashed Gray}
+.DataPreviewContent{ margin-top:150px; margin-left:5px; width:640px; height:auto; position:absolute;}
+
+.DataPublicDataClose{width:40px; height:40px; left:1300px; position:absolute; z-index:114;cursor:pointer;  background:url("../FrameImg/sitelogo/CloseBut.png" ) no-repeat scroll}

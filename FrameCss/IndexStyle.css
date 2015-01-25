@@ -1,0 +1,127 @@
+﻿
+/*新闻浏览*/
+.CNews{ margin:0; height:320px; width:100%; position:relative;}
+
+.SiteNews{ margin:0; height:300px; width:100%; position:absolute; ;box-shadow: 2px 3px 5px #a2a2a3}
+.NewsBrowser{ margin:0; width:650px; height:300px; position:absolute; background-color:Orange; overflow:hidden }
+.NewsBrowser ul{ list-style-type:none; font-size:0px; margin:0; padding:0; width:650px; height:300px; position:absolute;}
+.NewsBrowser li{ margin:0; width:650px; height:300px; position:relative; vertical-align:top;}
+.NewsBrowser img{ width:648px; height:298px; position:relative; border:1px solid Gray}
+
+.NewsIndex{ margin:0; margin-left:650px; width:300px; height:300px; position:absolute;}
+.NewsIndex ul{ list-style-type:none; font-size:0px; margin:0; padding:0; width:300px; height:300px; position:absolute;}
+.NewsIndex li{ margin-left:5px; width:295px; height:59px; position:relative;cursor:pointer; background-color:#24292c; text-decoration:none;  border-bottom:1px solid #222222}
+.NewsIndex p{line-height:20px;font-size:20px; margin-top:0px; padding:15px; color:White; font-family:"黑体"; cursor:pointer}
+
+.CCloudTag{ margin:0; height:150px; width:100%; position:relative; background-color:White; z-index:150;box-shadow: 2px 3px 5px #a2a2a3}
+.CCloudTag ul{list-style-type:none; font-size:0px; margin:0; padding:0; width:100%; height:150px; position:absolute;}
+.CCloudTag li{ padding:0; width:200px; height:30px; font-size:25px; font-family:"黑体"; color:Red; position:absolute; cursor:pointer}
+/*数据*/
+.CData{  margin:0; margin-top:20px; height:420px; width:100%; position:relative; background-color:White;box-shadow: 2px 3px 5px #a2a2a3 }
+.CDataTitle{display:block;height:29px; width:100%;  position:absolute; text-align:center;}
+.CDataTitle a{ height:100%; width:100px;font-size:20px; line-height:35px;color:Red; text-align:center; text-decoration:none; cursor:pointer }
+.CDataContent{ height:350px; width:100%; margin-top:40px; position:absolute;overflow:hidden}
+.CDataContent ul{list-style-type:none; font-size:0px; margin:0; padding:0; width:100%; height:350px; position:absolute; overflow:hidden}
+.CDataContent li{ width:190px; height:348px; position:relative; float:left;}
+.CDataTag{ width:100%; height:20px; font-size:15px; text-align:center; line-height:20px; color:Gray; position:absolute;}
+.CDataImg{ width:160px; height:120px; margin-top:20px; margin-left:14px; position:absolute; }
+.CDataImg img{ width:160px; height:120px; position:relative;}
+.CDataCTitle{ width:100%; height:30px; margin-top:150px; font-size:18px; position:absolute;text-align:center; line-height:30px;}
+.CDataCContent{ width:160px; margin-left:14px; height:110px; margin-top:180px; position:absolute;}
+.CDataCContent p{ width:100%; height:100%; line-height:20px;  font-size:12px; color:Gray}
+.CDataBut{ width:55px; height:30px; margin-left:120px; margin-top:300px; position:absolute; font-size:12px; text-align:center; line-height:30px; color:Gray}
+.CDataLeftBut{ width:50px; height:20px; margin-top:395px; margin-left:390px; position:absolute; background-color:Green; color:White; text-align:center; line-height:20px; cursor:pointer}
+.CDataRightBut{ width:50px; height:20px; margin-top:395px; margin-left:490px; position:absolute; background-color:Green; color:White; text-align:center; line-height:20px; cursor:pointer}
+/*最新*/
+
+.CLatest{ margin:0; margin-top:20px; height:1350px; width:200px; position:relative; float:left; background-color:White ;box-shadow: 2px 3px 5px #a2a2a3}
+.CLatestTitle{ display:block;height:29px; width:100%;  position:absolute; }
+.CLatestTitle a{ display:block; height:100%; width:100px;font-size:20px; line-height:35px;color:Red; text-align:center; text-decoration:none; cursor:pointer }
+.CLatestContent{ width:100%; height:1200px; margin-top:50px; position:absolute}
+.CLatestContent ul{ list-style-type:none; font-size:0px; margin:0; padding:0; width:100%; height:auto; position:absolute;}
+.CLatestContent li{ width:180px; height:395px; margin-left:10px; position:relative; border-top:2px solid Green }
+.CLatestImg{ width:170px; height:148px; position:absolute; margin-top:20px;}
+.CLatestImg img{ width:170px; height:148px; margin-left:5px; position:relative}
+.CLatestCTitle{ width:130px; height:30px; margin-left:25px; margin-top:180px; line-height:30px; font-size:15px; text-align:center; position:absolute}
+.CLatestCContent{ width:170px; height:95px; margin-left:5px; margin-top:210px; position:absolute; border-bottom:1px dashed Gray}
+.CLatestCContent p{ padding:0; margin:0; width:100%; height:100%; font-size:12px; line-height:15px; color:Gray; position:absolute}
+.CLatestAuthor{ width:50px; height:50px; margin-left:5px; margin-top:325px; position:absolute}
+.CLatestAuthor img{ width:50px; height:50px; position:relative; border:1px solid Gray; border-radius:25px;}
+.CLatestTime{ width:100px; height:20px; margin-left:80px; margin-top:325px; position:absolute; font-size:12px; color:Gray}
+.CLatestAbortHe{ width:60px; height:20px; margin-left:107px; margin-top:355px;position:absolute; font-size:12px; line-height:20px; text-align:center; color:White; background-color:Green;}
+
+.CLatestTag{ width:100%; height:98px; margin-top:1240px; position:absolute;border-top:2px solid Green}
+.CLatestTagTitle{ width:190px; margin-left:5px; height:30px; position:absolute; font-size:15px; line-height:30px;  }
+.CLatestTag ul{list-style-type:none; font-size:0px; margin:0; padding:0; width:100%; height:68px; margin-top:30px; position:absolute;}
+.CLatestTag li{ width:55px; height:30px; margin-left:6px; margin-top:4px; position:relative; float:left; font-size:13px; text-align:center; line-height:30px; }
+
+.CMiddle{margin:0; margin-top:20px; height:1350px; margin-left:15px; width:470px; position:relative; float:left;}
+
+/*资源*/
+.CRes{ margin:0; height:850px; width:470px; position:relative; float:left; background-color:White ;box-shadow: 2px 3px 5px #a2a2a3}
+.CResTitle{display:block;height:29px; width:100%;  position:absolute; text-align:center; }
+.CResTitle a{ height:100%; width:100px;font-size:20px; line-height:35px;color:Red;text-align:center;text-decoration:none; cursor:pointer  }
+.IndexImg1{  display:block; width:450px; height:250px; margin-top:50px; margin-left:10px; position:absolute;}
+.IndexImg1 img{   display:block;width:450px; height:250px; position:absolute; z-index:109}
+.IndexImg2{ width:220px; height:120px; margin-top:315px; margin-left:10px; position:absolute;}
+.IndexImg2 img{  display:block; width:220px; height:120px; position:absolute; z-index:109}
+.IndexImg3{ width:220px; height:120px; margin-top:315px; margin-left:240px; position:absolute;}
+.IndexImg3 img{  display:block; width:220px; height:120px; position:absolute; z-index:109}
+.IndexImg4{ width:450px; height:250px; margin-top:450px; margin-left:10px; position:absolute;}
+.IndexImg4 img{  display:block; width:450px; height:250px; position:absolute; z-index:109}
+.IndexImg5{ width:220px; height:120px; margin-top:715px; margin-left:10px; position:absolute;}
+.IndexImg5 img{  display:block; width:220px; height:120px; position:absolute; z-index:109}
+.IndexImg6{ width:220px; height:120px; margin-top:715px; margin-left:240px; position:absolute;}
+.IndexImg6 img{  display:block; width:220px; height:120px; position:absolute; z-index:109}
+
+.CResImgList{ display:none; width:0; height:0; position:absolute}
+.TitleLayer{ display:none; width:100%; height:30px; margin-top:220px; position:absolute; z-index:110; background-color:Black; color:White; line-height:30px; font-size:15px; text-align:center;filter:alpha(opacity=50); -moz-opacity:0.5; -khtml-opacity: 0.5; opacity: 0.5;  }
+.TitleLayer1{display:none; width:100%; height:30px; margin-top:90px; position:absolute; z-index:110; background-color:Black; color:White; line-height:30px; font-size:15px; text-align:center;filter:alpha(opacity=50); -moz-opacity:0.5; -khtml-opacity: 0.5; opacity: 0.5;}
+
+/*聊天*/
+.CPerson{ margin:0; margin-top:20px; height:480px; width:470px; position:relative; float:left; background-color:White ;box-shadow: 2px 3px 5px #a2a2a3}
+.CPersonTitle{ display:block;height:29px; width:100%;  position:absolute; text-align:center;}
+.CPersonTitle a{ height:100%; width:100px;font-size:20px; line-height:35px;color:Red; text-align:center; text-decoration:none; cursor:pointer }
+.CPersonContent{ width:100%; height: 450px; margin-top:30px; position:absolute;}
+.CPersonContent ul{list-style-type:none; font-size:0px; margin:0; padding:0; width:100%; height:450px; position:absolute;}
+.CPersonContent li{ margin-left:17px; margin-top:10px; width:135px; height:210px; position:relative; float:left; border:1px solid #efecff }
+.CPersonHead{ margin-left:22px; margin-top:10px; width:90px; height:90px; position:absolute;border-radius:50px;}
+.CPersonHead img{ width:90px; height:90px; position:relative;border:1px solid Red; border-radius:50px;}
+.CPersonSelfdesp{ width:105px; height:40px; margin-left:15px; margin-top:105px; position:absolute; font-size:15px; text-align:center; line-height:40px; color:Black}
+.CPersonSelfInfo{width:110px; height:65px; margin-left:15px; margin-top:140px; position:absolute; }
+.CPersonSelfInfo p{ padding:0; margin:0; width:100%; height:100%; font-size:12px; line-height:16px; color:Gray; position:absolute}
+.CPersonAdd{ display:none; width:0; height:0}
+/*评论*/
+.COpinion{ margin:0; margin-top:20px; margin-left:15px; height:1350px; width:250px; position:relative; float:left; background-color:White;box-shadow: 2px 3px 5px #a2a2a3}
+.COpinionTitle{ display:block;height:29px; width:100%;  position:absolute;}
+.COpinionTitle a{ margin-left:5px; height:100%; width:100px;font-size:20px; line-height:35px;color:Red;text-decoration:none; cursor:pointer }
+.COpinionContent{ width:100%; height:1320px; margin-top:30px; position:absolute }
+.COpinionHot{ width:100%; height:350px; position:absolute;}
+.COpinionHot ul{list-style-type:none; font-size:0px; margin:0; padding:0; width:100%; height:350px; position:absolute;}
+.COpinionHot li{width:240px; height:59px;margin-left:5px;margin-top:10px; position:relative; float:left; border-bottom:1px dashed Gray }
+.COpinionHotI{ width:50px; height:50px;  margin-left:5px; margin-top:5px;position:absolute; font-size:22px; color:Red; text-align:center; }
+.COpinionHotI img{ width:50px; height:50px; position:relative}
+.COpinionHotT{ width:180px; height:20px; margin-left:60px; margin-top:5px;position:absolute; font-size:15px; line-height:20px; }
+.COpinionCC{ width:170px; height:30px; margin-top:15px; margin-left:60px; position:absolute;  }
+.COpinionCC p{ width:170px; height:30px;  position:absolute; font-size:12px; line-height:15px; color:Gray; }
+.COpinionNew{width:100%; height:950px; margin-top:375px; position:absolute;}
+.COpinionNew ul{list-style-type:none; font-size:0px; margin:0; padding:0; width:100%; height:950px; position:absolute;}
+.COpinionNew li{ width:240px; height:175px;margin-left:5px;margin-top:12px; position:relative; }
+.COpinionNewImg{ width:240px; height:120px; position:absolute}
+.COpinionNewImg img{ width:100%; height:120px; position:relative}
+.COpinionNewContent{ width:100%; height:50px; margin-top:120px; position:absolute}
+.COpinionNewContent p{ display:block; width:100%; height:40px; margin-top:5px; font-size:12px; line-height:20px; color:Gray; position:relative}
+
+
+/*预览图*/
+.CResPreviewImg{ display:none; width:500px; height:300px; position:fixed; z-index:120}
+.CResPreviewImg img{ width:100%; height:100%; position:relative}
+.ArticlePublicArticleClose{width:40px; height:40px; left:1300px; position:absolute; z-index:130;cursor:pointer;  background:url("../FrameImg/sitelogo/CloseBut.png" ) no-repeat scroll}
+
+.CDataPreview{ display:none; width:500px; height:300px; position:fixed; z-index:121}
+.DataArticleFrameC{ width:100%; height:100%; position:relative}
+.CArticlePreview{ display:none; width:500px; height:300px; position:fixed; z-index:122}
+.CArticleFrameC{ width:100%; height:100%; position:relative}
+.COpinionPreview{ display:none; width:500px; height:300px; position:fixed; z-index:123}
+
+
